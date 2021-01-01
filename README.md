@@ -8,8 +8,17 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)
 
-#Bills of materials(BOM)
+# Bills of materials(BOM)
 | Name | Remarks | Amazon JP | Amazon US|
 |:---:|:---:|:---:|:---:|
-| Raspberry Pi 3 Model B+ | TD3 | [Link](https://www.amazon.co.jp/dp/B087WKPWNW/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
-| Raspberry Pi Camera Module V2  | TD4 | [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | Link(https://www.amazon.com/dp/B07W6THFPH/) |
+| Raspberry Pi 3 Model B+ | | [Link](https://www.amazon.co.jp/dp/B087WKPWNW/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
+| Raspberry Pi Camera Module V2  | | [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
+| Mobile Battery | Size:6.2x9.15x1.15 Current:Up to 2A |[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
+| Motor Driver Module| For DC Motor/H-Bridge| [Link](https://www.amazon.co.jp/dp/B078X88R27/) | [Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
+|130 DC Motor | Low Speed (<8000 RPM) / Low Current| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/https://www.amazon.com/dp/B0743835CY) |
+| Micro Servo | SG90| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
+| TAMIYA Mini 4WD Kit | VZ Chassis| [Link](https://www.amazon.co.jp/dp/B08C5FM9HM/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
+| TAMIYA Mini 4WD Roller parts | Include M2 screws| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp/B075FM86KG/) |
+| TAMIYA MINI4WD 72mm Shaft | For Extended Rear Shaft| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
+| Micro USB Cable | Short cable 10cm| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+
