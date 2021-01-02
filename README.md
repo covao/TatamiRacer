@@ -25,8 +25,8 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 
 # 3D Printed Parts
 
-![Assembly (stl)](3d/tatamiracer_assembly.stl)
 ![Assembly3D](img/TatamiRacer_3D_Assembly.png)
+![Assembly (stl)](3d/tatamiracer_assembly.stl)
 
-![Kit for 3D print(stl)](3d/tatamiracer_assembly.stl)
 ![Kit3D](img/TatamiRacer_3D_Kit.png)
+![Kit for 3D print(stl)](3d/tatamiracer_kit.stl)
