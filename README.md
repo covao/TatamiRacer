@@ -1,12 +1,10 @@
 ![TatamiRacer_Logo](img/TatamiRacer_LogoM.png)
 # TatamiRacer
-TatamiRacer is tiny autonomous driving car based on [TAMIYA MINI 4WD kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).
-
-You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space.(Approximately 1.8m x 0.9m)
-
+TatamiRacer is tiny autonomous driving car based on [TAMIYA MINI 4WD kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm)  
+You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space.(Approximately 1.8m x 0.9m)  
 [Donkey car](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
 
-![TatamiRacer_short](img/TatamiRacer_short.gif)
+![TatamiRacer_short](img/TatamiRacer_short.gif)  
 
 # Bills of materials(BOM)
 | Name | Remarks | Amazon JP | Amazon US|
@@ -25,8 +23,8 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 
 # 3D Printed Parts
 
-![Assembly3D](img/TatamiRacer_3D_Assembly.png)
-![Assembly (stl)](3d/tatamiracer_assembly.stl)
-
-![Kit3D](img/TatamiRacer_3D_Kit.png)
-![Kit for 3D print(stl)](3d/tatamiracer_kit.stl)
+![Assembly3D](img/TatamiRacer_3D_Assembly.png)  
+![Assembly (STL Viewer)](3d/tatamiracer_assembly.stl)  
+  
+![Kit3D](img/TatamiRacer_3D_Kit.png)  
+![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
