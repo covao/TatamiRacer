@@ -28,3 +28,6 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
   
 ![Kit3D](img/TatamiRacer_3D_Kit.png)  
 ![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
+  
+# Circuit Diagram
+![Circuit](img/TatamiRacer_Circuit.png)
