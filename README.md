@@ -23,3 +23,10 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 | TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Micro USB Cable | Short cable 10cm| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
 
+#3D Printed Parts
+
+![Assembly (stl)](https://github.com/covao/TatamiRacer/blob/master/3d/tatamiracer_assembly.stl)
+![Assembly3D](https://github.com/covao/TatamiRacer/blob/master/img/TatamiRacer_3D_Assembly.png)
+
+![Kit for 3D print(stl)](https://github.com/covao/TatamiRacer/blob/master/3d/tatamiracer_assembly.stl)
+![Kit3D](https://https://github.com/covao/TatamiRacer/blob/master/img/TatamiRacer_3D_Kit.png)
