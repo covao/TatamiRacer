@@ -31,5 +31,5 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 ![Kit3D](img/TatamiRacer_3D_Kit.png)  
   
 # Circuit Diagram
-<img src="img/TatamiRacer_Circuit.png" alt="" title="" width="640" height="300">
+<img src="img/TatamiRacer_Circuit.png" alt="" title="" width="640" height="">
 
