@@ -8,26 +8,28 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 
 # Bills of materials(BOM)
 | Name | Remarks | Amazon JP | Amazon US|
-|:---:|:---:|:---:|:---:|
+|:---:|:---|:---|:---|
 | Raspberry Pi 3 Model B+ | | [Link](https://www.amazon.co.jp/dp/B087WKPWNW/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
 | Raspberry Pi Camera Module V2  | | [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
 | Micro SD Card | For Raspberry Pi/32GB| [Link](https://www.amazon.co.jp/dp/B06XWMQ81P/) | [Link](https://www.amazon.com/dp/B06XWMQ81P) |
-| Mobile Battery | Size:6.2x9.15x1.15 Voltage:5V Current:Up to 2A |[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
+| Mobile Battery | Size:6.2x9.15x1.15cm Voltage:5V Current:Up to 2A |[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
 | Motor Driver Module| For DC Motor/H-Bridge| [Link](https://www.amazon.co.jp/dp/B078X88R27/) | [Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
-|130 DC Motor | Low Speed (<8000 RPM) and Low Current| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/https://www.amazon.com/dp/B0743835CY) |
+| 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/https://www.amazon.com/dp/B0743835CY) |
 | Micro Servo | SG90| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
 | TAMIYA Mini 4WD Kit | VZ Chassis and Your Favorite Body| [Link](https://www.amazon.co.jp/dp/B08C5FM9HM/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
 | TAMIYA Mini 4WD Roller parts | Include M2 screws| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp/B075FM86KG/) |
 | TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Micro USB Cable | Short cable 10cm| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| Jumper Cable | Female to Female 10cm| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL/) |
 
 # 3D Printed Parts
 
-![Assembly3D](img/TatamiRacer_3D_Assembly.png)  
 ![Assembly (STL Viewer)](3d/tatamiracer_assembly.stl)  
+![Assembly3D](img/TatamiRacer_3D_Assembly.png)  
   
-![Kit3D](img/TatamiRacer_3D_Kit.png)  
 ![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
+![Kit3D](img/TatamiRacer_3D_Kit.png)  
   
 # Circuit Diagram
-![Circuit](img/TatamiRacer_Circuit.png)
+<img src="img/TatamiRacer_Circuit.png" alt="" title="" width="640" height="300">
+
