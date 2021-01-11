@@ -33,3 +33,6 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 # Circuit Diagram
 <img src="img/TatamiRacer_Circuit.png" alt="" title="" width="640" height="">
 
+# Body Selection
+It can be attaced various type of Mini-4WD body.
+<img src="img/Body_Selection.jpg" alt="" title="" width="640" height="">
