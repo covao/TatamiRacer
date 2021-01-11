@@ -1,7 +1,7 @@
 ![TatamiRacer Logo](img/TatamiRacer_LogoM.png)
 # TatamiRacer
 TatamiRacer is tiny autonomous driving car based on [TAMIYA MINI 4WD kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm)  
-You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space.(Approximately 1.8m x 0.9m)  
+You can drive arround only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space.(Approximately 1.8m x 0.9m)  
 [Donkey car](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
@@ -36,6 +36,9 @@ You can drive in only one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat spa
 # Body Selection
 It can be attaced various type of Mini-4WD body.[e.g. Amazon US](https://www.amazon.com/s?k=tamiya+1%2F32+mini4wd&ref=nb_sb_noss)  
 <img src="img/Body_Selection.jpg" alt="" title="" width="640" height="">
+
+# Tatami Circuit Cource
+<img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
 
 # How to Build
 See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)  
