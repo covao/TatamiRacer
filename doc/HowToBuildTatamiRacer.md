@@ -16,16 +16,16 @@ Remove carefully support structure.
 <img src="../img/Build_Steering1.jpg" alt="" title="" width="640" height="">  
 - Build steering Assy.  
 <img src="../img/Build_Steering2.jpg" alt="" title="" width="640" height="">  
-<img src="../img/Build_Steering3.jpg" alt="" title="" width="640" height="">  
 - Cut the servo parts and connect it at center rotational position.  
 - Attach the servo into the steering Assy.  
-- Attach the steering Assy into the chassis.
+<img src="../img/Build_Steering3.jpg" alt="" title="" width="640" height="">  
+- Attach the steering Assy into the chassis.  
 - Tighten with M2x5 screws.  
 <img src="../img/Build_Steering4.jpg" alt="" title="" width="640" height="">  
 - Insert the fixed parts to the chassis.  
 <img src="../img/Build_Steering5.jpg" alt="" title="" width="640" height="">  
 
-2. Build Rear Motor Assy
+2. Build Rear Motor Assy  
 - Build the rear motor with 72mm shaft and spacer parts.  
 - Insert the motor cover.  
 <img src="../img/Build_Rear_Motor1.jpg" alt="" title="" width="640" height="">  
@@ -40,8 +40,8 @@ Remove carefully support structure.
 - Insert front and rear mount parts.
 <img src="../img/Attach_Front_and_Rear_Mount2.jpg" alt="" title="" width="640" height="">  
 
-4. Prepare Motor Driver
+1. Prepare Motor Driver
 
-5. Attach Raspberry Pi Board and Battery.
+1. Attach Raspberry Pi Board and Battery.
 
-6. Connect Cable
+1. Connect Cable
