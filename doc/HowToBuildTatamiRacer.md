@@ -14,14 +14,18 @@ Remove carefully support structure.
 - Insert a spacer into steering joint.  
 - Connect wheel with M2x15 screw.  
 <img src="../img/Build_Steering1.jpg" alt="" title="" width="640" height="">  
+
 - Build steering Assy.  
 <img src="../img/Build_Steering2.jpg" alt="" title="" width="640" height="">  
+
 - Cut the servo parts and connect it at center rotational position.  
 - Attach the servo into the steering Assy.  
 <img src="../img/Build_Steering3.jpg" alt="" title="" width="640" height="">  
+
 - Attach the steering Assy into the chassis.  
 - Tighten with M2x5 screws.  
 <img src="../img/Build_Steering4.jpg" alt="" title="" width="640" height="">  
+
 - Insert the fixed parts to the chassis.  
 <img src="../img/Build_Steering5.jpg" alt="" title="" width="640" height="">  
 
@@ -29,6 +33,7 @@ Remove carefully support structure.
 - Build the rear motor with 72mm shaft and spacer parts.  
 - Insert the motor cover.  
 <img src="../img/Build_Rear_Motor1.jpg" alt="" title="" width="640" height="">  
+
 - Insert jumper cable without housing to the contact parts.  
 - Attace the contact parts.  
 <img src="../img/Build_Rear_Motor2.jpg" alt="" title="" width="640" height="">  
@@ -37,6 +42,7 @@ Remove carefully support structure.
 - Attach front mount and tighten with M2 step screws.
 - Attach rear mount and tighten with M2x10 screws.
 <img src="../img/Attach_Front_and_Rear_Mount1.jpg" alt="" title="" width="640" height="">  
+
 - Insert front and rear mount parts.
 <img src="../img/Attach_Front_and_Rear_Mount2.jpg" alt="" title="" width="640" height="">  
 
