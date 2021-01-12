@@ -11,6 +11,7 @@ Remove carefully support structure.
 <img src="../img/TAMIYA_MIini4WD_VZ_Kit.jpg" alt="" title="" width="640" height="">  
 
 1. Build Front Steering Assy  
+
 - Insert a spacer into steering joint.  
 - Connect wheel with M2x15 screw.  
 <img src="../img/Build_Steering1.jpg" alt="" title="" width="640" height="">  
@@ -30,7 +31,8 @@ Remove carefully support structure.
 <img src="../img/Build_Steering5.jpg" alt="" title="" width="640" height="">  
 
 2. Build Rear Motor Assy  
-- Build the rear motor with 72mm shaft and spacer parts.  
+
+- Build the rear motor with 72mm shaft and spacer parts.(Use low speed type 130 motor instead of original motor.)  
 - Insert the motor cover.  
 <img src="../img/Build_Rear_Motor1.jpg" alt="" title="" width="640" height="">  
 
@@ -39,6 +41,7 @@ Remove carefully support structure.
 <img src="../img/Build_Rear_Motor2.jpg" alt="" title="" width="640" height="">  
 
 3. Attach Front and Rear Mount
+
 - Attach front mount and tighten with M2 step screws.
 - Attach rear mount and tighten with M2x10 screws.
 <img src="../img/Attach_Front_and_Rear_Mount1.jpg" alt="" title="" width="640" height="">  
