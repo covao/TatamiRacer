@@ -40,6 +40,12 @@ It can be attaced various type of Mini-4WD body.[e.g. Amazon US](https://www.ama
 # Tatami Circuit Cource
 <img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
 
+# Lap Time Measurement
+<img src="img/LapTimeMeasurement.jpg" alt="" title="" width="640" height="">  
+Lap time measurement by smart phone camera  
+
+e.g. [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925)  
+
 # How to Build
 See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)  
 <img src="img/TatamiRacerBuild.png" alt="" title="" width="640" height="">
