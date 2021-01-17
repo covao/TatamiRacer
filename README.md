@@ -5,6 +5,8 @@ You can drive arround only one [Tatami](https://en.wikipedia.org/wiki/Tatami) ma
 [Donkey car](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
+<a href="https://www.youtube.com/watch?v=b-pkVy8e3DA"><img src="img/TatamiRacer_video.jpg" alt="" title="" width="320" height=""></a>  
+
 
 # Bills of materials(BOM)
 | Name | Remarks | Amazon JP | Amazon US|
