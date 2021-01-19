@@ -54,3 +54,4 @@ Remove carefully support structure.
 1. Attach Raspberry Pi Board and Battery.
 
 1. Connect Cable
+　　
