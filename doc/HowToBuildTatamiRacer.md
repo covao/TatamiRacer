@@ -49,9 +49,23 @@ Remove carefully support structure.
 - Insert front and rear mount parts.
 <img src="../img/Attach_Front_and_Rear_Mount2.jpg" alt="" title="" width="640" height="">  
 
-1. Prepare Motor Driver
+4. Prepare Motor Driver  
 
-1. Attach Raspberry Pi Board and Battery.
+- Prepare L-type pin header or bend pin headder. 
+- Solder pin headder to motor driver board.  
+<img src="../img/MotorDriver.jpg" alt="" title="" width="640" height="">  
 
-1. Connect Cable
-　　
+5. Prepare wire harness  
+
+- Swap VCC and GND pin of servo connector.
+- Create wire harness with jumper cable and 3d printed wrapper parts.
+
+<img src="../img/ReplaceServoConnector.jpg" alt="" title="" width="640" height="">  
+
+6. Attach camera module and raspberry pi board. 
+
+7. Insert mobile battery
+
+8. Connect jumper cable 
+
+
