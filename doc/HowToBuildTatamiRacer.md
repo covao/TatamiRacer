@@ -67,7 +67,7 @@ Remove carefully support structure.
 - Attach middle mount and tighten with M2 step screws.
 - Insert Raspberry pi board and tighten with M2x5 screws.
 
-<img src="../img/ReplaceServoConnector.jpg" alt="" title="" width="640" height="">  
+<img src="../img/Attach_Camera_raspi.png" alt="" title="" width="640" height="">  
 
 7. Insert mobile battery
 
