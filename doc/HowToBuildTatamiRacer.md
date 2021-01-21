@@ -63,6 +63,11 @@ Remove carefully support structure.
 <img src="../img/ReplaceServoConnector.jpg" alt="" title="" width="640" height="">  
 
 6. Attach camera module and raspberry pi board. 
+- Attach camera module to front mount.  
+- Attach middle mount and tighten with M2 step screws.
+- Insert Raspberry pi board and tighten with M2x5 screws.
+
+<img src="../img/ReplaceServoConnector.jpg" alt="" title="" width="640" height="">  
 
 7. Insert mobile battery
 
