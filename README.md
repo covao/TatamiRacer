@@ -28,10 +28,10 @@ Youtube Link
 # 3D Printed Parts
 
 ![Assembly (STL Viewer)](3d/tatamiracer_assembly.stl)  
-![Assembly3D](img/TatamiRacer_3D_Assembly.png)  
+<img src="img/TatamiRacer_3D_Assembly.png" alt="" title="" width="640" height="">  
   
 ![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
-![Kit3D](img/TatamiRacer_3D_Kit.png)  
+<img src="img/TatamiRacer_3D_Kit.png" alt="" title="" width="640" height="">  
   
 # Circuit Diagram
 <img src="img/TatamiRacer_Circuit.png" alt="" title="" width="640" height="">
