@@ -82,4 +82,7 @@ Remove carefully support structure.
 
 <img src="../img/Attach_Battery.jpg" alt="" title="" width="640" height="">  
 
-
+9. Attach body 
+- insert hold parts into front mount.
+- Attach body by connecting front and rear mount.
+<img src="../img/Attach_Body.jpg" alt="" title="" width="640" height="">  
