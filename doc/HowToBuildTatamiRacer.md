@@ -62,15 +62,24 @@ Remove carefully support structure.
 
 <img src="../img/ReplaceServoConnector.jpg" alt="" title="" width="640" height="">  
 
-6. Attach camera module and raspberry pi board. 
+6. Attach camera module and raspberry pi board 
 - Attach camera module to front mount.  
 - Attach middle mount and tighten with M2 step screws.
 - Insert Raspberry pi board and tighten with M2x5 screws.
 
 <img src="../img/Attach_Camera_raspi.png" alt="" title="" width="640" height="">  
 
-7. Insert mobile battery
+7. Connect jumper cable and camera cable 
+- Conncet jumper connector with motor diver and raspberry pi.
+- Conncet camera cable.
 
-8. Connect jumper cable 
+<img src="../img/Connect_Cable.jpg" alt="" title="" width="640" height="">  
+
+8. Connect battery 
+- Insert mobile battery.
+- Attach stopper parts.
+- Connect usb power cable.  
+
+<img src="../img/Attach_Battery.jpg" alt="" title="" width="640" height="">  
 
 
