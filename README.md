@@ -2,7 +2,7 @@
 # TatamiRacer
 TatamiRacer is tiny autonomous driving car.  
 It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).  
-You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space.(Approximately 1.8m x 0.9m)  
+You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space.(Approximately 1.8m x 0.9m) 
 ["Donkey car"](http://docs.donkeycar.com/), open source software is available for deep-learning and self-driving control.  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
@@ -24,7 +24,7 @@ Youtube Link
 | TAMIYA Mini 4WD Roller parts | Include M2 screws| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp/B075FM86KG/) |
 | TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Micro USB Cable | Short cable 10cm| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
-| Jumper Cable | Female to Female 10cm| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL/) |
+| Jumper Cable | Female connector to Female connector 10cm| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL/) |
 
 # 3D Printed Parts
 
