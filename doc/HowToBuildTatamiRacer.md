@@ -47,6 +47,7 @@ Remove carefully support structure.
 <img src="../img/Attach_Front_and_Rear_Mount1.jpg" alt="" title="" width="640" height="">  
 
 - Insert front and rear mount parts.
+- - Tighten with M2x5 screws.  
 <img src="../img/Attach_Front_and_Rear_Mount2.jpg" alt="" title="" width="640" height="">  
 
 4. Prepare Motor Driver  
@@ -64,13 +65,11 @@ Remove carefully support structure.
 
 6. Attach camera module and raspberry pi board 
 - Attach camera module to front mount.
-- Attach middle mount and tighten with M2 step screws.
-
+- Attach middle mount and tighten with M2 step screws. 
 <img src="../img/Attach_Camera_raspi.jpg" alt="" title="" width="640" height="">  
 
 - Build middle mount parts.
-- Insert Raspberry pi board and tighten with M2x5 screws.
-
+- Insert Raspberry pi board and tighten with M2x5 screws. 
 <img src="../img/Attach_Camera_raspi2.jpg" alt="" title="" width="640" height="">  
 
 7. Connect jumper cable and camera cable 
