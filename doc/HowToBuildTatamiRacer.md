@@ -47,7 +47,7 @@ Remove carefully support structure.
 <img src="../img/Attach_Front_and_Rear_Mount1.jpg" alt="" title="" width="640" height="">  
 
 - Insert front and rear mount parts.
-- - Tighten with M2x5 screws.  
+- Tighten with M2x5 screws.  
 <img src="../img/Attach_Front_and_Rear_Mount2.jpg" alt="" title="" width="640" height="">  
 
 4. Prepare Motor Driver  
