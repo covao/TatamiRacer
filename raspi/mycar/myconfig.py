@@ -1,6 +1,9 @@
 # """ 
 # My CAR CONFIG 
 
+# myconfig.py for TatamiRacer
+# based on donkey v4.2.0
+
 # This file is read by your car application's manage.py script to change the car
 # performance
 
@@ -19,16 +22,14 @@
 # DRIVE_LOOP_HZ = 20      # the vehicle loop will pause if faster than this speed.
 # MAX_LOOPS = None        # the vehicle loop can abort after this many iterations, when given a positive integer.
 # 
-#CAMERA
-CAMERA_TYPE = "PICAM"   # (PICAM|WEBCAM|CVCAM|CSIC|V4L|D435|MOCK|IMAGE_LIST)
-IMAGE_W = 160
-IMAGE_H = 120
-IMAGE_DEPTH = 3         # default RGB=3, make 1 for mono
+# #CAMERA
+# CAMERA_TYPE = "PICAM"   # (PICAM|WEBCAM|CVCAM|CSIC|V4L|D435|MOCK|IMAGE_LIST)
+# IMAGE_W = 160
+# IMAGE_H = 120
+# IMAGE_DEPTH = 3         # default RGB=3, make 1 for mono
 # CAMERA_FRAMERATE = DRIVE_LOOP_HZ
 CAMERA_VFLIP = True
-# CAMERA_VFLIP = False
 CAMERA_HFLIP = True
-# CAMERA_HFLIP = False
 # # For CSIC camera - If the camera is mounted in a rotated position, changing the below parameter will correct the output frame orientation
 # CSIC_CAM_GSTREAMER_FLIP_PARM = 0 # (0 => none , 4 => Flip horizontally, 6 => Flip vertically)
 # 
@@ -49,19 +50,18 @@ CAMERA_HFLIP = True
 # #DC_TWO_WHEEL uses HBridge pwm to control two drive motors, one on the left, and one on the right.
 # #SERVO_HBRIDGE_PWM use ServoBlaster to output pwm control from the PiZero directly to control steering, and HBridge for a drive motor.
 # #PIGPIO_PWM uses Raspberrys internal PWM
-DRIVE_TRAIN_TYPE = "PIGPIO_TATAMI" # PIGPIO_TATAMI|SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|SERVO_HBRIDGE_PWM|PIGPIO_PWM|MM1|MOCK
+DRIVE_TRAIN_TYPE = "PIGPIO_TATAMI" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|DC_TWO_WHEEL_L298N|SERVO_HBRIDGE_PWM|PIGPIO_PWM|MM1|MOCK
 # 
 # #STEERING
 # STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
-# STEERING_LEFT_PWM = 460         #pwm value for full left steering
-# STEERING_RIGHT_PWM = 290        #pwm value for full right steering
-STEERING_LEFT_PWM = 930         #pwm value for full left steering
-STEERING_RIGHT_PWM = 2030        #pwm value for full right steering
+STEERING_LEFT_PWM = 1530+550         #PWM value for full left steering
+STEERING_RIGHT_PWM = 1530-550        #PWM value for full right steering
+
 # 
-#STEERING FOR PIGPIO_PWM
-#STEERING_PWM_PIN = 14           #Pin numbering according to Broadcom numbers
-#STEERING_PWM_FREQ = 50          #Frequency for PWM
-#STEERING_PWM_INVERTED = False   #If PWM needs to be inverted
+# #STEERING FOR PIGPIO_PWM
+# STEERING_PWM_PIN = 13           #Pin numbering according to Broadcom numbers
+# STEERING_PWM_FREQ = 50          #Frequency for PWM
+# STEERING_PWM_INVERTED = False   #If PWM needs to be inverted
 # 
 # #THROTTLE
 # THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
@@ -70,9 +70,9 @@ STEERING_RIGHT_PWM = 2030        #pwm value for full right steering
 # THROTTLE_REVERSE_PWM = 220      #pwm value for max reverse throttle
 # 
 # #THROTTLE FOR PIGPIO_PWM
-#THROTTLE_PWM_PIN = 18           #Pin numbering according to Broadcom numbers
-#THROTTLE_PWM_FREQ = 50          #Frequency for PWM
-#THROTTLE_PWM_INVERTED = False   #If PWM needs to be inverted
+# THROTTLE_PWM_PIN = 18           #Pin numbering according to Broadcom numbers
+# THROTTLE_PWM_FREQ = 50          #Frequency for PWM
+# THROTTLE_PWM_INVERTED = False   #If PWM needs to be inverted
 # 
 # #DC_STEER_THROTTLE with one motor as steering, one as drive
 # #these GPIO pinouts are only used for the DRIVE_TRAIN_TYPE=DC_STEER_THROTTLE
@@ -89,16 +89,52 @@ STEERING_RIGHT_PWM = 2030        #pwm value for full right steering
 # HBRIDGE_PIN_RIGHT_BWD = 13
 # 
 # 
+# #ODOMETRY
+# HAVE_ODOM = False                   # Do you have an odometer/encoder
+# ENCODER_TYPE = 'GPIO'            # What kind of encoder? GPIO|Arduino|Astar
+# MM_PER_TICK = 12.7625               # How much travel with a single tick, in mm. Roll you car a meter and divide total ticks measured by 1,000
+# ODOM_PIN = 13                        # if using GPIO, which GPIO board mode pin to use as input
+# ODOM_DEBUG = False                  # Write out values on vel and distance as it runs
+# 
+# # #LIDAR
+# USE_LIDAR = False
+# LIDAR_TYPE = 'RP' #(RP|YD)
+# LIDAR_LOWER_LIMIT = 90 # angles that will be recorded. Use this to block out obstructed areas on your car, or looking backwards. Note that for the RP A1M8 Lidar, "0" is in the direction of the motor
+# LIDAR_UPPER_LIMIT = 270
+# 
+# 
+# # #RC CONTROL
+# USE_RC = False
+# STEERING_RC_GPIO = 26
+# THROTTLE_RC_GPIO = 20
+# DATA_WIPER_RC_GPIO = 19
+# 
+# #DC_TWO_WHEEL_L298N - with two wheels as drive, left and right.
+# #these GPIO pinouts are only used for the DRIVE_TRAIN_TYPE=DC_TWO_WHEEL_L298N
+# HBRIDGE_L298N_PIN_LEFT_FWD = 16
+# HBRIDGE_L298N_PIN_LEFT_BWD = 18
+# HBRIDGE_L298N_PIN_LEFT_EN = 22
+# 
+# HBRIDGE_L298N_PIN_RIGHT_FWD = 15
+# HBRIDGE_L298N_PIN_RIGHT_BWD = 13
+# HBRIDGE_L298N_PIN_RIGHT_EN = 11
+# 
+# 
 # #TRAINING
+# # The default AI framework to use. Choose from (tensorflow|pytorch)
+# DEFAULT_AI_FRAMEWORK = 'tensorflow'
+# 
 # #The DEFAULT_MODEL_TYPE will choose which model will be created at training time. This chooses
 # #between different neural network designs. You can override this setting by passing the command
 # #line parameter --type to the python manage.py train and drive commands.
-# DEFAULT_MODEL_TYPE = 'linear'   #(linear|categorical|rnn|imu|behavior|3d|localizer|latent)
+# # tensorflow models: (linear|categorical|tflite_linear|tensorrt_linear)
+# # pytorch models: (resnet18)
+# DEFAULT_MODEL_TYPE = 'linear'
 # BATCH_SIZE = 128                #how many records to use when doing one pass of gradient decent. Use a smaller number if your gpu is running out of memory.
 # TRAIN_TEST_SPLIT = 0.8          #what percent of records to use for training. the remaining used for validation.
 # MAX_EPOCHS = 100                #how many times to visit all records of your data
 # SHOW_PLOT = True                #would you like to see a pop up display of final loss?
-# VERBOSE_TRAIN = True             #would you like to see a progress bar with text during training?
+# VERBOSE_TRAIN = True            #would you like to see a progress bar with text during training?
 # USE_EARLY_STOP = True           #would you like to stop the training if we see it's not improving fit?
 # EARLY_STOP_PATIENCE = 5         #how many epochs to wait before no improvement
 # MIN_DELTA = .0005               #early stop will want this much loss change before calling it improved.
@@ -115,19 +151,12 @@ STEERING_RIGHT_PWM = 2030        #pwm value for full right steering
 # PRUNE_VAL_LOSS_DEGRADATION_LIMIT = 0.2 # The max amout of validation loss that is permitted during pruning.
 # PRUNE_EVAL_PERCENT_OF_DATASET = .05  # percent of dataset used to perform evaluation of model.
 # 
-# #Pi login information
-# #When using the continuous train option, these credentials will
-# #be used to copy the final model to your vehicle. If not using this option, no need to set these.
-# PI_USERNAME = "pi"                  # username on pi
-# PI_PASSWD = "raspberry"             # password is optional. Only used from Windows machine. Ubuntu and mac users should copy their public keys to the pi. `ssh-copy-id username@hostname`
-# PI_HOSTNAME = "raspberrypi.local"   # the network hostname or ip address
-# PI_DONKEY_ROOT = "/home/pi/mycar"   # the location of the mycar dir on the pi. this will be used to help locate the final model destination.
-# 
 # # Region of interst cropping
 # # only supported in Categorical and Linear models.
 # # If these crops values are too large, they will cause the stride values to become negative and the model with not be valid.
 # ROI_CROP_TOP = 0                    #the number of rows of pixels to ignore on the top of the image
 # ROI_CROP_BOTTOM = 0                 #the number of rows of pixels to ignore on the bottom of the image
+# 
 # 
 # #Model transfer options
 # #When copying weights during a model transfer operation, should we freeze a certain number of layers
@@ -136,20 +165,19 @@ STEERING_RIGHT_PWM = 2030        #pwm value for full right steering
 # NUM_LAST_LAYERS_TO_TRAIN = 7        #when freezing layers, how many layers from the last should be allowed to train?
 # 
 # #WEB CONTROL
-# WEB_CONTROL_PORT = 8887             # which port to listen on when making a web controller
+# WEB_CONTROL_PORT = int(os.getenv("WEB_CONTROL_PORT", 8887))  # which port to listen on when making a web controller
 # WEB_INIT_MODE = "user"              # which control mode to start in. one of user|local_angle|local. Setting local will start in ai mode.
 # 
 # #JOYSTICK
-# USE_JOYSTICK_AS_DEFAULT = False     #when starting the manage.py, when True, will not require a --js option to use the joystick
+# USE_JOYSTICK_AS_DEFAULT = False      #when starting the manage.py, when True, will not require a --js option to use the joystick
 # JOYSTICK_MAX_THROTTLE = 0.5         #this scalar is multiplied with the -1 to 1 throttle value to limit the maximum throttle. This can help if you drop the controller or just don't need the full speed available.
 # JOYSTICK_STEERING_SCALE = 1.0       #some people want a steering that is less sensitve. This scalar is multiplied with the steering -1 to 1. It can be negative to reverse dir.
 # AUTO_RECORD_ON_THROTTLE = True      #if true, we will record whenever throttle is not zero. if false, you must manually toggle recording with some other trigger. Usually circle button on joystick.
-AUTO_RECORD_ON_THROTTLE = False      #if true, we will record whenever throttle is not zero. if false, you must manually toggle recording with some other trigger. Usually circle button on joystick.
-CONTROLLER_TYPE='F710'               #(ps3|ps4|xbox|nimbus|wiiu|F710|rc3|MM1|custom) custom will run the my_joystick.py controller written by the `donkey createjs` command
+# CONTROLLER_TYPE = 'xbox'            #(ps3|ps4|xbox|nimbus|wiiu|F710|rc3|MM1|custom) custom will run the my_joystick.py controller written by the `donkey createjs` command
 # USE_NETWORKED_JS = False            #should we listen for remote joystick control over the network?
-# NETWORK_JS_SERVER_IP = "192.168.0.1"#when listening for network joystick control, which ip is serving this information
-# JOYSTICK_DEADZONE = 0.0             # when non zero, this is the smallest throttle before recording triggered.
-# JOYSTICK_THROTTLE_DIR = -1.0        # use -1.0 to flip forward/backward, use 1.0 to use joystick's natural forward/backward
+# NETWORK_JS_SERVER_IP = None         #when listening for network joystick control, which ip is serving this information
+# JOYSTICK_DEADZONE = 0.01            # when non zero, this is the smallest throttle before recording triggered.
+# JOYSTICK_THROTTLE_DIR = -1.0         # use -1.0 to flip forward/backward, use 1.0 to use joystick's natural forward/backward
 # USE_FPV = False                     # send camera data to FPV webserver
 # JOYSTICK_DEVICE_FILE = "/dev/input/js0" # this is the unix file use to access the joystick.
 # 
@@ -185,8 +213,31 @@ CONTROLLER_TYPE='F710'               #(ps3|ps4|xbox|nimbus|wiiu|F710|rc3|MM1|cus
 # #  eg.'/dev/tty.usbmodemXXXXXX' and replace the port accordingly
 # MM1_SERIAL_PORT = '/dev/ttyS0'  # Serial Port for reading and sending MM1 data.
 # 
+# #LOGGING
+# HAVE_CONSOLE_LOGGING = True
+# LOGGING_LEVEL = 'INFO'          # (Python logging level) 'NOTSET' / 'DEBUG' / 'INFO' / 'WARNING' / 'ERROR' / 'FATAL' / 'CRITICAL'
+# LOGGING_FORMAT = '%(message)s'  # (Python logging format - https://docs.python.org/3/library/logging.html#formatter-objects
+# 
+# #TELEMETRY
+# HAVE_MQTT_TELEMETRY = False
+# TELEMETRY_DONKEY_NAME = 'my_robot1234'
+# TELEMETRY_MQTT_TOPIC_TEMPLATE = 'donkey/%s/telemetry'
+# TELEMETRY_MQTT_JSON_ENABLE = False
+# TELEMETRY_MQTT_BROKER_HOST = 'broker.hivemq.com'
+# TELEMETRY_MQTT_BROKER_PORT = 1883
+# TELEMETRY_PUBLISH_PERIOD = 1
+# TELEMETRY_LOGGING_ENABLE = True
+# TELEMETRY_LOGGING_LEVEL = 'INFO' # (Python logging level) 'NOTSET' / 'DEBUG' / 'INFO' / 'WARNING' / 'ERROR' / 'FATAL' / 'CRITICAL'
+# TELEMETRY_LOGGING_FORMAT = '%(message)s'  # (Python logging format - https://docs.python.org/3/library/logging.html#formatter-objects
+# TELEMETRY_DEFAULT_INPUTS = 'pilot/angle,pilot/throttle,recording'
+# TELEMETRY_DEFAULT_TYPES = 'float,float'
+# 
+# # PERF MONITOR
+# HAVE_PERFMON = False
+# 
 # #RECORD OPTIONS
 # RECORD_DURING_AI = False        #normally we do not record during ai mode. Set this to true to get image and steering records for your Ai. Be careful not to use them to train.
+# AUTO_CREATE_NEW_TUB = False     #create a new tub (tub_YY_MM_DD) directory when recording or append records to data directory directly
 # 
 # #LED
 # HAVE_RGB_LED = False            #do you have an RGB LED like https://www.amazon.com/dp/B07BNRZWNF
@@ -247,10 +298,19 @@ CONTROLLER_TYPE='F710'               #(ps3|ps4|xbox|nimbus|wiiu|F710|rc3|MM1|cus
 # #then extract that and modify DONKEY_SIM_PATH.
 # DONKEY_GYM = False
 # DONKEY_SIM_PATH = "path to sim" #"/home/tkramer/projects/sdsandbox/sdsim/build/DonkeySimLinux/donkey_sim.x86_64" when racing on virtual-race-league use "remote", or user "remote" when you want to start the sim manually first.
-# DONKEY_GYM_ENV_NAME = "donkey-mountain-track-v0" # ("donkey-generated-track-v0"|"donkey-generated-roads-v0"|"donkey-warehouse-v0"|"donkey-avc-sparkfun-v0")
-# GYM_CONF = { "body_style" : "donkey", "body_rgb" : (128, 128, 128), "car_name" : "me", "font_size" : 100} # body style(donkey|bare|car01) body rgb 0-255
+# DONKEY_GYM_ENV_NAME = "donkey-generated-track-v0" # ("donkey-generated-track-v0"|"donkey-generated-roads-v0"|"donkey-warehouse-v0"|"donkey-avc-sparkfun-v0")
+# GYM_CONF = { "body_style" : "donkey", "body_rgb" : (128, 128, 128), "car_name" : "car", "font_size" : 100} # body style(donkey|bare|car01) body rgb 0-255
+# GYM_CONF["racer_name"] = "Your Name"
+# GYM_CONF["country"] = "Place"
+# GYM_CONF["bio"] = "I race robots."
+# 
 # SIM_HOST = "127.0.0.1"              # when racing on virtual-race-league use host "trainmydonkey.com"
 # SIM_ARTIFICIAL_LATENCY = 0          # this is the millisecond latency in controls. Can use useful in emulating the delay when useing a remote server. values of 100 to 400 probably reasonable.
+# 
+# # Save info from Simulator (pln)
+# SIM_RECORD_LOCATION = False
+# SIM_RECORD_GYROACCEL= False
+# SIM_RECORD_VELOCITY = False
 # 
 # #publish camera over network
 # #This is used to create a tcp service to pushlish the camera feed
@@ -263,7 +323,7 @@ CONTROLLER_TYPE='F710'               #(ps3|ps4|xbox|nimbus|wiiu|F710|rc3|MM1|cus
 # AI_LAUNCH_KEEP_ENABLED = False      # when False ( default) you will need to hit the AI_LAUNCH_ENABLE_BUTTON for each use. This is safest. When this True, is active on each trip into "local" ai mode.
 # 
 # #Scale the output of the throttle of the ai pilot for all model types.
-#AI_THROTTLE_MULT = 1.0              # this multiplier will scale every throttle value for all output from NN models
+# AI_THROTTLE_MULT = 1.0              # this multiplier will scale every throttle value for all output from NN models
 # 
 # #Path following
 # PATH_FILENAME = "donkey_path.pkl"   # the path will be saved to this filename
@@ -283,4 +343,7 @@ CONTROLLER_TYPE='F710'               #(ps3|ps4|xbox|nimbus|wiiu|F710|rc3|MM1|cus
 # REALSENSE_D435_IMU = False      # True to capture IMU data (D435i only)
 # REALSENSE_D435_ID = None        # serial number of camera or None if you only have one camera (it will autodetect)
 # 
-# 
+# # Stop Sign Detector
+# STOP_SIGN_DETECTOR = False
+# STOP_SIGN_MIN_SCORE = 0.2
+# STOP_SIGN_SHOW_BOUNDING_BOX = True
