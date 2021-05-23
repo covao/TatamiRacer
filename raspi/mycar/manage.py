@@ -26,14 +26,16 @@ import time
 class PWMSteering_TATAMI:
     def __init__(self,
                  controller=None,
-                 left_pulse=1000,
-                 right_pulse=2000):
+                 left_pulse=2000,
+                 right_pulse=1000):
         import pigpio
         self.gpio_pin = 14 #Servo PWM pin
         self.pi = pigpio.pi()
         self.pigpio = pigpio
         self.half_range = abs(right_pulse - left_pulse)/2
         self.center = min(left_pulse,right_pulse) + self.half_range
+        self.left_pulse = left_pulse
+        self.right_pulse = right_pulse
         print('PWM Steering for TatamiRacer created.')
 
     def update(self):
@@ -42,10 +44,10 @@ class PWMSteering_TATAMI:
     def run_threaded(self, angle):
         
         servo_p=int( self.center - self.half_range*angle   )
-        if servo_p > 2500:
-            servo_p = 2500
-        elif servo_p < 500:
-            servo_p =500
+        if servo_p > max(self.right_pulse,self.left_pulse):
+            servo_p = self.right_pulse
+        elif servo_p < min(self.right_pulse,self.left_pulse):
+            servo_p = self.left_pulse
         self.pi.set_servo_pulsewidth(self.gpio_pin, servo_p )
 
     def run(self, angle):
