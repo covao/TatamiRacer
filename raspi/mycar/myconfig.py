@@ -54,8 +54,8 @@ DRIVE_TRAIN_TYPE = "PIGPIO_TATAMI" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|DC
 # 
 # #STEERING
 # STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
-STEERING_LEFT_PWM = 1530+550         #PWM value for full left steering
-STEERING_RIGHT_PWM = 1530-550        #PWM value for full right steering
+STEERING_LEFT_PWM = 1600+600         #PWM value for full left steering (Center PWM + steering level)
+STEERING_RIGHT_PWM = 1600-600        #PWM value for full right steering
 
 # 
 # #STEERING FOR PIGPIO_PWM

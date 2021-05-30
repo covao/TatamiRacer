@@ -70,9 +70,15 @@ class PWMThrottle_TATAMI:
         self.boost_offset = 0.8 #Throttle boost offset for start torque up(0..1)
         self.throttle_deadzone = 0.01 #Throttle deadzone for detect zero (0..1)
         self.throttle_upper_limit = 1.0 #Throttle upper limit (0..1)
-        self.throttle_lower_limit = 0.4 #Throttle lower limit (0..1)
-        self.angle_adjust = 0.4 #Throttle adjustment by steering angle (0..1)
+        self.throttle_lower_limit = 0.5 #Throttle lower limit (0..1)
+        self.angle_adjust = 0.55 #Throttle adjustment by steering angle (0..1)
+        self.angle_adjust_limit = 0.25 #Throttle by angle adjustment limit (0..1)
         self.pwm_max = 100 #PWM Max
+
+        self.pi.set_PWM_range(self.gpio_pin0,100)  # Set PWM range
+        self.pi.set_PWM_frequency(self.gpio_pin0,490)
+        self.pi.set_PWM_range(self.gpio_pin1,100)  # Set PWM range
+        self.pi.set_PWM_frequency(self.gpio_pin1,490)
         
         self.boost_time0 = time.time()
         print('PWM Throttle for TatamiRacer created.')
@@ -88,11 +94,16 @@ class PWMThrottle_TATAMI:
         else:
             t = time.time()-self.boost_time0
             if(t <= self.boost_time):
-                boost = np.sign(throttle)*self.boost_offset #Boost mode
+                boost = self.boost_offset #Boost mode
             else:
-                boost =0.0
-            throttle_gain = 1.0+np.abs(angle)*self.angle_adjust #steering adjustment
-            throttle_out = throttle_gain*throttle+boost
+                boost = 0.0
+
+            adjust = np.abs(angle)*self.angle_adjust #steering adjustment
+            if adjust>self.angle_adjust_limit:
+                adjust=self.angle_adjust_limit
+                
+            throttle_out = throttle+np.sign(throttle)*(boost+adjust)
+            
             if np.abs(throttle_out) < self.throttle_lower_limit:
                 throttle_out = np.sign(throttle_out)*self.throttle_lower_limit
             elif np.abs(throttle_out) > self.throttle_upper_limit:
@@ -103,23 +114,19 @@ class PWMThrottle_TATAMI:
             motor_v = int(np.sign(motor_v)*self.pwm_max)
         
         if throttle > 0:
-            self.pi.set_PWM_range(self.gpio_pin0,100)  # Set PWM range
             self.pi.set_PWM_dutycycle(self.gpio_pin0,motor_v) # Set PWM duty
-            self.pi.set_PWM_frequency(self.gpio_pin0,490)
             self.pi.set_PWM_dutycycle(self.gpio_pin1,0) # PWM off
 
         else:
-            self.pi.set_PWM_range(self.gpio_pin1,100)  # Set PWM range
             self.pi.set_PWM_dutycycle(self.gpio_pin1,-motor_v) # Set PWM duty
-            self.pi.set_PWM_frequency(self.gpio_pin1,490)
             self.pi.set_PWM_dutycycle(self.gpio_pin0,0) # PWM off
         
     def run(self, throttle):
         pass
 
     def shutdown(self):
-        self.pi.set_mode(self.gpio_pin0, self.pigpio.INPUT)
-        self.pi.set_mode(self.gpio_pin1, self.pigpio.INPUT)
+        self.pi.set_PWM_dutycycle(self.gpio_pin0,0) # PWM off
+        self.pi.set_PWM_dutycycle(self.gpio_pin1,0) # PWM off
         self.pi.stop()            
 
 
