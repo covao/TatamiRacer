@@ -1,9 +1,6 @@
 # """ 
 # My CAR CONFIG 
 
-# myconfig.py for TatamiRacer
-# based on donkey v4.2.0
-
 # This file is read by your car application's manage.py script to change the car
 # performance
 
@@ -54,10 +51,9 @@ DRIVE_TRAIN_TYPE = "PIGPIO_TATAMI" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|DC
 # 
 # #STEERING
 # STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
-STEERING_LEFT_PWM = 1600+600         #PWM value for full left steering (Center PWM + steering level)
-STEERING_RIGHT_PWM = 1600-600        #PWM value for full right steering
-
-# 
+STEERING_LEFT_PWM = 1490+630         #PWM value for full left steering (Center PWM + steering level)
+STEERING_RIGHT_PWM = 1490-630        #PWM value for full right steering
+ 
 # #STEERING FOR PIGPIO_PWM
 # STEERING_PWM_PIN = 13           #Pin numbering according to Broadcom numbers
 # STEERING_PWM_FREQ = 50          #Frequency for PWM

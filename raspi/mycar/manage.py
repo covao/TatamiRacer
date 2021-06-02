@@ -67,12 +67,12 @@ class PWMThrottle_TATAMI:
 
         #TatamiRacer tunable parameter
         self.boost_time = 0.5 #Throttle boost time[sec]
-        self.boost_offset = 0.8 #Throttle boost offset for start torque up(0..1)
+        self.boost_offset = 0.85 #Throttle boost offset for start torque up(0..1)
         self.throttle_deadzone = 0.01 #Throttle deadzone for detect zero (0..1)
         self.throttle_upper_limit = 1.0 #Throttle upper limit (0..1)
-        self.throttle_lower_limit = 0.5 #Throttle lower limit (0..1)
-        self.angle_adjust = 0.55 #Throttle adjustment by steering angle (0..1)
-        self.angle_adjust_limit = 0.25 #Throttle by angle adjustment limit (0..1)
+        self.throttle_lower_limit = 0.6 #Throttle lower limit (0..1)
+        self.angle_adjust = 0.7 #Throttle adjustment by steering angle (0..1)
+        self.angle_adjust_limit = 0.7 #Throttle limit of steering angle adjustment(0..1)
         self.pwm_max = 100 #PWM Max
 
         self.pi.set_PWM_range(self.gpio_pin0,100)  # Set PWM range
@@ -98,11 +98,12 @@ class PWMThrottle_TATAMI:
             else:
                 boost = 0.0
 
-            adjust = np.abs(angle)*self.angle_adjust #steering adjustment
-            if adjust>self.angle_adjust_limit:
-                adjust=self.angle_adjust_limit
+            if np.abs(throttle)<self.angle_adjust_limit:
+                adjust = np.abs(angle)*self.angle_adjust #steering angle adjustment
+            else:
+                adjust = 0.0
                 
-            throttle_out = throttle+np.sign(throttle)*(boost+adjust)
+            throttle_out = throttle+np.sign(throttle)*(adjust+boost)
             
             if np.abs(throttle_out) < self.throttle_lower_limit:
                 throttle_out = np.sign(throttle_out)*self.throttle_lower_limit
@@ -145,7 +146,6 @@ from donkeycar.parts.behavior import BehaviorPart
 from donkeycar.parts.file_watcher import FileWatcher
 from donkeycar.parts.launch import AiLaunch
 from donkeycar.utils import *
-
 
 logger = logging.getLogger()
 logging.basicConfig(level=logging.INFO)
