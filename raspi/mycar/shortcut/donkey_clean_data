@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Donkey Clean Data
+Exec=lxterminal -e "source env/bin/activate;set -x;cd ~/mycar;read -p 'Press Enter for Clear data.';rm ./data/*.*;rm -r ./data/*;sleep 3;"
+Icon=/home/pi/mycar/tatamiracer_icon.png
+Comment=

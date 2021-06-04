@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Donkey Drive
+Exec=lxterminal -e "source env/bin/activate;set -x;cd ~/mycar;python manage.py drive;read -p 'Press Enter';"
+Icon=/home/pi/mycar/tatamiracer_icon.png
+Comment=

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Donkey Drive with Model
+Name[ja_JP]=Donkey Drive with Model
+Exec=lxterminal -e "source env/bin/activate;set -x;cd ~/mycar;python manage.py drive --model=models/mypilot.tflite --type=tflite_linear;read -p 'Press Enter';"
+Icon=/home/pi/mycar/tatamiracer_icon.png
+Comment=

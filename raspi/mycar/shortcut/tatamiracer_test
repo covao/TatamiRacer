@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=TatamiRacer Test
+Exec=lxterminal -e "source env/bin/activate;set -x;cd ~/mycar;python tatamiracer_test.py;"
+Icon=/home/pi/mycar/tatamiracer_icon.png
+Comment=
+Name[ja_JP]=TatamiRacer Test
