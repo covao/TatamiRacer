@@ -22,9 +22,9 @@ Internet connection on Raspberry Pi is required before setup of donkeycar.
  Please see [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
 ## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard) 
 1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor
- Please see [Setting up a Raspberry Pi headless](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/)
+ Please see ["Setting up a Raspberry Pi headless"](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/)
 2. Create ssh file (empty file) in the top of SD card to enable SSH.
- Please see[SSH (Secure Shell)>3. Enable SSH on a headless Raspberry Pi](https://www.raspberrypi.org/documentation/remote-access/ssh/)
+ Please see ["SSH (Secure Shell)>3. Enable SSH on a headless Raspberry Pi"](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 3. Insert micro SD card into Raspi.
 4. Plug USB power supply of Raspi and wait about 1 minutes.
 5. Launch command prompt and enter following command.Check network connection between host pc and raspberry pi.
@@ -39,7 +39,7 @@ ssh pi@raspberrypi
 
 # Setup VNC
 Remote desktop environment is useful to access raspberry pi from host pc. 
-Please see [VNC (Virtual Network Computing)](https://www.raspberrypi.org/documentation/remote-access/vnc/)
+Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)
 
 # Install Donkey Software
 ~~~
