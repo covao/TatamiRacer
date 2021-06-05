@@ -28,7 +28,7 @@ source ~/.bashrc
 mkdir projects
 cd projects
 git clone https://github.com/autorope/donkeycar
-cd donkeycar
+cd projects
 git checkout master
 yes | pip install -e .[pi]
 yes | pip install numpy --upgrade
