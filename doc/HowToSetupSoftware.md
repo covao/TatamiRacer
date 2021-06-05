@@ -40,6 +40,11 @@ ssh pi@raspberrypi
 
 # Setup VNC
 Remote desktop environment is useful to access raspberry pi from host pc. 
+~~~
+sudo apt update
+sudo apt install realvnc-vnc-server realvnc-vnc-viewer
+sudo raspi-config nonint do_vnc 0
+~~~
 Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)
 
 # Install Donkey Software
