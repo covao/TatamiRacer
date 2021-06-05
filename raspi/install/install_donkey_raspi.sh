@@ -28,7 +28,7 @@ source ~/.bashrc
 mkdir projects
 cd projects
 git clone https://github.com/autorope/donkeycar
-cd projects
+cd donkeycar
 git checkout master
 yes | pip install -e .[pi]
 yes | pip install numpy --upgrade
@@ -40,7 +40,4 @@ yes | pip install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
 
 #Optional - Install OpenCV
 yes | sudo apt install python3-opencv
-
-#Create Donkeycar from Template
-donkey createcar --path ~/mycar
 
