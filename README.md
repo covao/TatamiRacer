@@ -54,6 +54,9 @@ e.g. [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id128088392
 See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)  
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
 
-# How to setup software 
+# How to Setup Software 
+See [How to Setup Software](doc/HowToSetupSoftware.md)  
 
-# How to train TatamiRacer  
+# How to Calibrate TatamiRacer
+
+# How to Train TatamiRacer  
