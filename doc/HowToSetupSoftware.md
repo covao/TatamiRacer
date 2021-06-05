@@ -33,6 +33,7 @@ Internet connection on Raspberry Pi is required before setup of donkeycar.
 ~~~
 6. Launch ssh with following command and press enter.
 ~~~
+ssh-keygen -R raspberrypi.local
 ssh pi@raspberrypi
 ~~~
 7. Enter password. (Initial password:raspberry)
