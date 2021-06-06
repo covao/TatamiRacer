@@ -53,7 +53,12 @@ sudo apt update
 yes | sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
 ~~~
-2. Enter exit 
+2. Set screen resolution
+Select "Advanced Options-> Resolution" (At least 1280 x 720 recommended.)
+~~~
+sudo raspi-config
+~~~
+4. Enter exit 
 ~~~
 exit
 ~~~
