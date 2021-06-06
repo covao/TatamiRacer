@@ -18,7 +18,8 @@ Internet connection on Raspberry Pi is required before setup of donkeycar.
 ## - Method 1: WiFi setting in the Raspberry Pi Desktop (monitor and keyboard for Raspberry pi are required)
 1. Insert micro SD card into Raspi.
 2. Plug USB power supply of Raspi.
-3.  Set Wifi configuration from Raspberry pi Desktop 
+3. Login Raspberry Pi Desktop
+4. Set Wifi configuration from Raspberry pi Desktop 
  Please see [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
 ## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard) 
 1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor
@@ -27,11 +28,12 @@ Internet connection on Raspberry Pi is required before setup of donkeycar.
  Please see ["SSH (Secure Shell)>3. Enable SSH on a headless Raspberry Pi"](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 3. Insert micro SD card into Raspi.
 4. Plug USB power supply of Raspi and wait about 1 minutes.
-5. Launch command prompt and enter following command.Check network connection between host pc and raspberry pi.
+5. Launch command prompt and enter following command. 
+ Check network connection between host pc and raspberry pi.
  ~~~
  ping raspberrypi.local
 ~~~
-6. Launch ssh with following command and press enter.
+6. Launch ssh by following command.
 ~~~
 ssh-keygen -R raspberrypi.local
 ssh pi@raspberrypi
@@ -39,12 +41,15 @@ ssh pi@raspberrypi
 7. Enter password. (Initial password:raspberry)
 
 # Setup VNC
-Remote desktop environment is useful to access raspberry pi from host pc. 
+Remote desktop environment is useful to access Raspberry pi from host pc. 
+You can install VNC with the following command.
+(You can enter the command from ssh or Raspberry pi ternminal.)
 ~~~
 sudo apt update
 sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
 ~~~
+Installation on the host PC is also requreired.
 Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)
 
 # Install Donkey Software
