@@ -62,7 +62,7 @@ sudo raspi-config
 ~~~
 exit
 ~~~
-3. Installation on the host PC is also requreired.  
+4. Installation on the host PC is also requreired.  
 Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
 
 # Launch Raspberry Pi Desktop
