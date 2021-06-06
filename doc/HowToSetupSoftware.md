@@ -54,7 +54,7 @@ Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/docume
 
 # Install Donkey Car Application for Raspberry Pi
 ## Method 1: Install by shell script 
-The following command will install the Donkey Car application and create "mycar" folder.
+The following command will install the Donkey Car application and create default "mycar" application.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
 sh install_donkey_raspi.sh
