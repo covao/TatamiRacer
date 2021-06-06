@@ -28,14 +28,18 @@ wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/tat
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/tatamiracer_icon.png" -O "tatamiracer_icon.png"
 
 #Download TatamiRacer ShortCut
-sudo mkdir shortcut
-cd shortcut
-sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_clean_data"  -O "donkey_clean_data"
-sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_drive"  -O "donkey_drive"
-sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_drive_with_model"  -O "donkey_drive_with_model"
-sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_training_on_board"  -O "donkey_training_on_board"
-sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/tatamiracer_test"  -O "tatamiracer_test"
+mkdir ~/mycar/shortcut
+cd ~/mycar/shortcut
+wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_clean_data"  -O "donkey_clean_data"
+wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_drive"  -O "donkey_drive"
+wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_drive_with_model"  -O "donkey_drive_with_model"
+wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_training_on_board"  -O "donkey_training_on_board"
+wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/tatamiracer_test"  -O "tatamiracer_test"
+wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/tatamiracer_shortcut"  -O "tatamiracer_shortcut"
+
+#Copy TatamiRacer shortcut in Desktop
+cp ~/mycar/shortcut/tatamiracer_shortcut ~/Desktop
 
 #Open shortcut folder
-xdg-open /home/pi/mycar/shortcut
+xdg-open ~/mycar/shortcut
 
