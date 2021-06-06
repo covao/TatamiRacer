@@ -14,7 +14,7 @@ This article is installation of Donkey car software and custaiization for Tatami
 7. Check the SD card drive. Boot files are appeared if OS image was flashed successfuly.
 
 # Setup the WiFi for Raspberry Pi
-Internet connection on Raspberry Pi is required before setup of donkeycar.
+Internet connection on Raspberry Pi is required before installation.
 ## - Method 1: WiFi setting in the Raspberry Pi Desktop (Monitor and keyboard for Raspberry pi are required.)
 1. Insert micro SD card into Raspi.
 2. Plug USB power supply of Raspi.
@@ -28,16 +28,18 @@ Internet connection on Raspberry Pi is required before setup of donkeycar.
  Please see ["SSH (Secure Shell)>3. Enable SSH on a headless Raspberry Pi"](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 3. Insert micro SD card into Raspi.
 4. Plug USB power supply of Raspi and wait about 1 minutes.
-5. Launch command prompt and enter following command. 
- Check network connection between host pc and raspberry pi.
- ~~~
+5. Launch command prompt and enter following command.  
+ Check network connection between host pc and raspberry pi.  
+~~~
  ping raspberrypi.local
 ~~~
-6. Launch ssh by following command. 
+
+6. Launch ssh by following command.  
 ~~~
 ssh-keygen -R raspberrypi.local
 ssh pi@raspberrypi
 ~~~
+
 7. Enter password. (Initial password:raspberry) 
 
 # Setup VNC
