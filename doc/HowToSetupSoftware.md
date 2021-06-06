@@ -58,7 +58,7 @@ Select "Advanced Options-> Resolution" (At least 1280 x 720 recommended.)
 ~~~
 sudo raspi-config
 ~~~
-4. Enter exit 
+3. Enter exit 
 ~~~
 exit
 ~~~
