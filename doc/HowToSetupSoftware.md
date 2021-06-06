@@ -50,7 +50,7 @@ Remote desktop environment is useful to access Raspberry pi from host pc.
 (You can enter the command from remote ssh or Raspberry pi desktop ternminal.)  
 ~~~
 sudo apt update
-yes | sudo apt install realvnc-vnc-server realvnc-vnc-viewer
+sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
 ~~~
 2. Set screen resolution
@@ -72,15 +72,16 @@ If you have VNC installed, you can use Remote Desktop.
 
 # Install Donkey Car Application for Raspberry Pi
 ## Method 1: Install by shell script 
-First execute the following command.  
-Press q when you see the following message.  
- if webkit2gtk (2.31.1-1) experimental; urgency=medium ...  
-
+1. First execute the following command.  
 ~~~
 sudo apt-get update
 sudo apt-get upgrade
 ~~~
-The following command will install the latest Donkey Car application and create default "mycar" application.
+Press q when you see the following message.  
+ if webkit2gtk (2.31.1-1) experimental; urgency=medium ...  
+
+
+2. The following command will install the latest Donkey Car application and create default "mycar" application.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
 sh -x install_donkey_raspi.sh
