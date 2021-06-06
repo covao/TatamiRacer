@@ -37,7 +37,7 @@ Internet connection on Raspberry Pi is required before installation.
 
 6. Launch ssh by following command.  
 ~~~
-ssh-keygen -R raspberrypi.local
+ssh-keygen -R raspberrypi
 ssh pi@raspberrypi
 ~~~
 If "The authenticity of host 'raspberrypi... Are you sure you want to continue connecting (yes/no)?" is appeared, enter yes.  
