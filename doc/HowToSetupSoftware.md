@@ -53,23 +53,24 @@ Installation on the host PC is also requreired.
 Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)
 
 # Install Donkey Car Application for Raspberry Pi
-## Method 1: Install by shell script  [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
+## Method 1: Install by shell script 
 The following command will install the Donkey Car Application and created "mycar" folder.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
 sh install_donkey_raspi.sh
 ~~~
+The shell script is here. [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
 
 ## Method 2: Install manually step by step.
 Please see following procedure.
 - [Get Your Raspberry Pi Working Step6 -Step12 ](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-6-update-and-upgrade)
 - [Create your car application](https://docs.donkeycar.com/guide/create_application/)
 
-# Setup TatamiRacer by shell script [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
+# Setup TatamiRacer by shell script 
 The following command will replace "~/mycar/manage.py" and "~/mycar/config.py" for TatamiRacer. 
 In addition it will create the shortcut into desktop.
-
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh" -O "setup_tatamiracer.sh"
 sh setup_tatamiracer.sh
 ~~~
+The shell script is here. [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
