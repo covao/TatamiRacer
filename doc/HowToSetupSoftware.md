@@ -83,3 +83,4 @@ wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/s
 sh setup_tatamiracer.sh
 ~~~
 The shell script is here. [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
+
