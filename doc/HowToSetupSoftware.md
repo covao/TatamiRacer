@@ -72,6 +72,14 @@ If you have VNC installed, you can use Remote Desktop.
 
 # Install Donkey Car Application for Raspberry Pi
 ## Method 1: Install by shell script 
+First execute the following command.  
+Press q when you see the following message.  
+ if webkit2gtk (2.31.1-1) experimental; urgency=medium ...  
+
+~~~
+sudo apt-get update
+sudo apt-get upgrade
+~~~
 The following command will install the latest Donkey Car application and create default "mycar" application.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
