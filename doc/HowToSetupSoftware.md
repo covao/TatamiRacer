@@ -4,7 +4,7 @@ TatamiRacer can use Donkey Car software.
 This article is installation of Donkey car software and custaiization for TatamiRacer.
 
 # Install Raspberry Pi OS using Raspberry Pi Imager
-1. Download Raspberry pi Imager from Raspberry Pi official site.
+1. Download Raspberry pi Imager from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
 2. Install Raspberry Pi Imager.
 3. Lunch Raspberry Pi imager
 4. Choose "Raspberry Pi OS(32BIT)
@@ -33,12 +33,12 @@ Internet connection on Raspberry Pi is required before setup of donkeycar.
  ~~~
  ping raspberrypi.local
 ~~~
-6. Launch ssh by following command.
+6. Launch ssh by following command. 
 ~~~
 ssh-keygen -R raspberrypi.local
 ssh pi@raspberrypi
 ~~~
-7. Enter password. (Initial password:raspberry)
+7. Enter password. (Initial password:raspberry) 
 
 # Setup VNC
 Remote desktop environment is useful to access Raspberry pi from host pc. 
