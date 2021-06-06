@@ -1,7 +1,7 @@
 # How To Setup Software
 
 TatamiRacer can use Donkey Car software.  
-This article is installation of Donkey car software and custaiization for TatamiRacer.  
+This article is installation of Donkey car software and custamiization for TatamiRacer.  
 
 # Install Raspberry Pi OS using Raspberry Pi Imager
 1. Download Raspberry pi Imager from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
