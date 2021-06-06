@@ -1,8 +1,8 @@
 #!/bin/sh -x
 #Install donkeycar
 
-printf "Install donkeycar automatically\n"
-printf " Please see https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/\n"
+printf "Install donkeycar automatically by shell-script\n"
+printf "About manual installation  Please see https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/\n"
 
 #Raspi-config
 sudo raspi-config nonint do_vnc 0
@@ -22,28 +22,28 @@ yes | sudo apt-get install libilmbase-dev libopenexr-dev libgstreamer1.0-dev lib
 #Setup Virtual Env
 python3 -m virtualenv -p python3 env --system-site-packages
 echo "source env/bin/activate" >> ~/.bashrc
-source ~/.bashrc
+. ~/.bashrc
+. env/bin/activate
 
 #Install Donkeycar Python Code
-source env/bin/activate;
 cd ~/
-mkdir projects
-cd projects
+sudo rm -rf projects
+mkdir ~/projects
+cd ~/projects
 git clone https://github.com/autorope/donkeycar
 cd donkeycar
 git checkout master
-yes | pip install -e .[pi]
-yes | pip install numpy --upgrade
+pip install -e .[pi]
+pip install numpy --upgrade
 
 curl -sc /tmp/cookie "https://drive.google.com/uc?export=download&id=1DCfoSwlsdX9X4E3pLClE1z0fvw8tFESP" > /dev/null
 CODE="$(awk '/_warning_/ {print $NF}' /tmp/cookie)"
 curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${CODE}&id=1DCfoSwlsdX9X4E3pLClE1z0fvw8tFESP" -o tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
-yes | pip install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
+pip install tensorflow-2.2.0-cp37-cp37m-linux_armv7l.whl
 
 #Optional - Install OpenCV
 yes | sudo apt install python3-opencv
 
 #Create Donkeycar from Template
 donkey createcar --path ~/mycar
-
 

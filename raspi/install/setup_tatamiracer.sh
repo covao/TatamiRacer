@@ -1,9 +1,7 @@
 #!/bin/sh -x
 #Setup TatamiRacer
-
+. env/bin/activate
 printf "Setup TatamiRacer\n"
-
-source env/bin/activate
 
 #Install pigpio
 yes | sudo apt install pigpio python-pigpio python3-pigpio
@@ -37,4 +35,7 @@ sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/myca
 sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_drive_with_model"  -O "donkey_drive_with_model"
 sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/donkey_training_on_board"  -O "donkey_training_on_board"
 sudo wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/mycar/shortcut/tatamiracer_test"  -O "tatamiracer_test"
+
+#Open shortcut folder
+xdg-open /home/pi/mycar/shortcut
 
