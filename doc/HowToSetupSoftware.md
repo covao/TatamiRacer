@@ -61,7 +61,8 @@ exit
 Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
 
 # Launch Raspberry Pi Desktop
-1. Start Raspberry Pi Desktop from VNC.
+If you have VNC installed, you can use Remote Desktop.
+1. Start Raspberry Pi Desktop.  
 2. Launch Terminal window.
 
 # Install Donkey Car Application for Raspberry Pi
