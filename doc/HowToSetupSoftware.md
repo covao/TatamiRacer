@@ -15,13 +15,13 @@ This article is installation of Donkey car software and custaiization for Tatami
 
 # Setup the WiFi for Raspberry Pi
 Internet connection on Raspberry Pi is required before setup of donkeycar.
-## - Method 1: WiFi setting in the Raspberry Pi Desktop (monitor and keyboard for Raspberry pi are required)
+## - Method 1: WiFi setting in the Raspberry Pi Desktop (Monitor and keyboard for Raspberry pi are required.)
 1. Insert micro SD card into Raspi.
 2. Plug USB power supply of Raspi.
 3. Login Raspberry Pi Desktop
 4. Set Wifi configuration from Raspberry pi Desktop 
  Please see [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
-## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard) 
+## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard.) 
 1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor
  Please see ["Setting up a Raspberry Pi headless"](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/)
 2. Create ssh file (empty file) in the top of SD card to enable SSH.
@@ -52,14 +52,23 @@ sudo raspi-config nonint do_vnc 0
 Installation on the host PC is also requreired.
 Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)
 
-# Install Donkey Software
+# Install Donkey Car Application for Raspberry Pi
+## Method 1: Install by shell script  [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
+The following command will install the Donkey Car Application and created "mycar" folder.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
 sh install_donkey_raspi.sh
 ~~~
-If you install manually, please see[Get Your Raspberry Pi Working Step6-](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-6-update-and-upgrade)
 
-# Setup TatamiRacer
+## Method 2: Install manually step by step.
+Please see following procedure.
+- [Get Your Raspberry Pi Working Step6 -Step12 ](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-6-update-and-upgrade)
+- [Create your car application](https://docs.donkeycar.com/guide/create_application/)
+
+# Setup TatamiRacer by shell script [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
+The following command will replace "~/mycar/manage.py" and "~/mycar/config.py" for TatamiRacer. 
+In addition it will create the shortcut into desktop.
+
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh" -O "setup_tatamiracer.sh"
 sh setup_tatamiracer.sh
