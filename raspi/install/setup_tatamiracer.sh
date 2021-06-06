@@ -13,7 +13,7 @@ sudo systemctl start pigpiod
 yes | sudo apt-get install lxshortcut
 
 #install imgaug for onboard training
-pip install imagaug
+pip install imgaug
 
 #Download TatamiRacer files
 cd ~/mycar
