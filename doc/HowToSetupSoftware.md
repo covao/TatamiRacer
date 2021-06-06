@@ -1,7 +1,7 @@
 # How To Setup Software
 
-TatamiRacer can use Donkey Car software.
-This article is installation of Donkey car software and custaiization for TatamiRacer.
+TatamiRacer can use Donkey Car software.  
+This article is installation of Donkey car software and custaiization for TatamiRacer.  
 
 # Install Raspberry Pi OS using Raspberry Pi Imager
 1. Download Raspberry pi Imager from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
@@ -22,9 +22,9 @@ Internet connection on Raspberry Pi is required before installation.
 4. Set Wifi configuration from Raspberry pi Desktop 
  Please see [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
 ## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard.) 
-1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor
+1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor  
  Please see ["Setting up a Raspberry Pi headless"](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/)
-2. Create ssh file (empty file) in the top of SD card to enable SSH.
+2. Create ssh file (empty file) in the top of SD card to enable SSH.  
  Please see ["SSH (Secure Shell)>3. Enable SSH on a headless Raspberry Pi"](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 3. Insert micro SD card into Raspi.
 4. Plug USB power supply of Raspi and wait about 1 minutes.
@@ -43,16 +43,16 @@ ssh pi@raspberrypi
 7. Enter password. (Initial password:raspberry) 
 
 # Setup VNC
-Remote desktop environment is useful to access Raspberry pi from host pc. 
-You can install VNC with the following command.
-(You can enter the command from remote ssh or Raspberry pi desktop ternminal.)
+Remote desktop environment is useful to access Raspberry pi from host pc.  
+You can install VNC with the following command.  
+(You can enter the command from remote ssh or Raspberry pi desktop ternminal.)  
 ~~~
 sudo apt update
 sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
 ~~~
-Installation on the host PC is also requreired.
-Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)
+Installation on the host PC is also requreired.  
+Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
 
 # Install Donkey Car Application for Raspberry Pi
 ## Method 1: Install by shell script 
@@ -69,8 +69,8 @@ Please see following procedure.
 - [Create your car application](https://docs.donkeycar.com/guide/create_application/)
 
 # Setup TatamiRacer by shell script 
-The following command will replace 'manage.py' and 'config.py' for TatamiRacer. 
-In addition it will create the shortcut into desktop.
+The following command will replace 'manage.py' and 'config.py' for TatamiRacer.  
+In addition it will create the shortcut into desktop.  
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh" -O "setup_tatamiracer.sh"
 sh setup_tatamiracer.sh
