@@ -61,7 +61,7 @@ sh install_donkey_raspi.sh
 ~~~
 The shell script is here. [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
 
-## Method 2: Install manually step by step.
+## Method 2: Install manually step by step
 Please see following procedure.
 - [Get Your Raspberry Pi Working Step6 -Step12 ](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-6-update-and-upgrade)
 - [Create your car application](https://docs.donkeycar.com/guide/create_application/)
