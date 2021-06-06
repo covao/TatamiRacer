@@ -70,7 +70,7 @@ Please see following procedure.
 - [Create your car application](https://docs.donkeycar.com/guide/create_application/)
 
 # Setup TatamiRacer by shell script 
-The following command will replace 'manage.py' and 'config.py' for TatamiRacer.  
+The following command will replace 'manage.py' and 'config.py' and add 'tatamiracer_test.py' for TatamiRacer.  
 In addition it will create the shortcut into desktop.  
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh" -O "setup_tatamiracer.sh"
