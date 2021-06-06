@@ -50,11 +50,11 @@ Lap time measurement by smart phone camera
 
 e.g. [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925)  
 
-# How to Build TatamiRacer
+# [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)
 See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)  
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
 
-# How to Setup Software 
+# [How to Setup Software](doc/HowToSetupSoftware.md) 
 See [How to Setup Software](doc/HowToSetupSoftware.md)  
 
 # How to Calibrate TatamiRacer
