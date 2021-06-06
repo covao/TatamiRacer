@@ -40,20 +40,26 @@ Internet connection on Raspberry Pi is required before installation.
 ssh-keygen -R raspberrypi.local
 ssh pi@raspberrypi
 ~~~
+If "The authenticity of host 'raspberrypi... Are you sure you want to continue connecting (yes/no)?" is appeared, enter yes.  
 
 7. Enter password. (Initial password:raspberry) 
 
 # Setup VNC
 Remote desktop environment is useful to access Raspberry pi from host pc.  
-You can install VNC with the following command.  
+1. You can install VNC with the following command.  
 (You can enter the command from remote ssh or Raspberry pi desktop ternminal.)  
 ~~~
 sudo apt update
-sudo apt install realvnc-vnc-server realvnc-vnc-viewer
+yes | sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
 ~~~
-Installation on the host PC is also requreired.  
-Please see ["VNC (Virtual Network Computing"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
+2. Enter exit 
+3. Installation on the host PC is also requreired.  
+Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
+
+# Launch Raspberry Pi Desktop
+1. Start Raspberry Pi Desktop from VNC.
+2. Launch Terminal window.
 
 # Install Donkey Car Application for Raspberry Pi
 ## Method 1: Install by shell script 
