@@ -8,8 +8,9 @@ This article is installation of Donkey car software and custaiization for Tatami
 2. Install Raspberry Pi Imager.
 3. Lunch Raspberry Pi imager
 4. Choose "Raspberry Pi OS(32BIT)
-<img src="../img/RaspberryPiImager.jpg" alt="" title="" width="640" height="">  
-5. Write Raspbian OS to your micro SD card. 
+<img src="../img/RaspberryPiImager.jpg" alt="" title="" width="640" height="">
+
+5. Write Raspbian OS to your micro SD card.
 6. Un plugging and re-inserting micro SD card.
 7. Check the SD card drive. Boot files are appeared if OS image was flashed successfuly.
 
@@ -19,7 +20,7 @@ Internet connection on Raspberry Pi is required before installation.
 1. Insert micro SD card into Raspi.
 2. Plug USB power supply of Raspi.
 3. Login Raspberry Pi Desktop
-4. Set Wifi configuration from Raspberry pi Desktop 
+4. Set Wifi configuration from Raspberry pi Desktop  
  Please see [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
 ## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard.) 
 1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor  
@@ -27,7 +28,7 @@ Internet connection on Raspberry Pi is required before installation.
 2. Create ssh file (empty file) in the top of SD card to enable SSH.  
  Please see ["SSH (Secure Shell)>3. Enable SSH on a headless Raspberry Pi"](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 3. Insert micro SD card into Raspi.
-4. Plug USB power supply of Raspi and wait about 1 minutes.
+4. Plug USB power supply of Raspi and wait few minutes.
 5. Launch command prompt and enter following command.  
  Check network connection between host pc and raspberry pi.  
 ~~~
