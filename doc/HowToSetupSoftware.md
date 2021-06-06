@@ -54,6 +54,9 @@ yes | sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
 ~~~
 2. Enter exit 
+~~~
+exit
+~~~
 3. Installation on the host PC is also requreired.  
 Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
 
