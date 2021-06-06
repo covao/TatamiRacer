@@ -101,3 +101,5 @@ sh -x setup_tatamiracer.sh
 ~~~
 The shell script is here. [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
 
+<img src="../img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
+
