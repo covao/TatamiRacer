@@ -75,7 +75,7 @@ If you have VNC installed, you can use Remote Desktop.
 The following command will install the latest Donkey Car application and create default "mycar" application.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
-sh install_donkey_raspi.sh
+sh -x install_donkey_raspi.sh
 ~~~
 The shell script is here. [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
 
@@ -89,7 +89,7 @@ The following command will replace 'manage.py' and 'config.py' and add 'tatamira
 In addition it will create the shortcut into desktop.  
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh" -O "setup_tatamiracer.sh"
-sh setup_tatamiracer.sh
+sh -x setup_tatamiracer.sh
 ~~~
 The shell script is here. [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
 
