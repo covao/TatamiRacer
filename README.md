@@ -11,24 +11,25 @@ Youtube Link
 
 
 # Bills of materials(BOM)
-| Name | Remarks |Minimum Model|Recommend Model| Amazon JP | Amazon US|
-|:----|:---|:---:|:---:|:---:|:---:|
-| Raspberry Pi3 Model B+ | |+|| [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
-| Raspberry Pi4 |Select 2GB or 4GB RAM||+| [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dpB07TC2BK1X) |
-| Raspberry Pi Camera V1 | |+|| [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
-| Raspberry Pi Camera V2 | ||+| [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
+| Parts Name | Remarks |Minimum|Recommend|Amazon JP|Amazon US|
+|:---|:---|:---:|:---:|:---:|:---:|
+| Raspberry Pi 3 Model B+ | |+|| [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
+| Raspberry Pi 4 |Select 2GB or 4GB RAM||+| [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dpB07TC2BK1X) |
+| Raspberry Pi Camera V1 | OV5647(Omnivision) |+|| [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
+| Raspberry Pi Camera V2 | IMX219PQ(SONY) ||+| [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
 | Micro SD Card | 16GB or more|+|+| [Link](https://www.amazon.co.jp/dp/B088TYHF8V/) | [Link](https://www.amazon.com/dp//B00M55BS8G) |
 | Mobile Battery | Size:6.2x9.15x1.15cm Voltage:5V Current:Up to 2A |+|+|[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
-| KKHMF Motor Driver| For DC Motor/H-Bridge|+|+| [Link](https://www.amazon.co.jp/dp/B078X88R27/) |[Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
+| Motor Driver| KKHMF For DC Motor/H-Bridge|+|+| [Link](https://www.amazon.co.jp/dp/B078X88R27/) |[Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
 | 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)|+|+| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/https://www.amazon.com/dp/B0743835CY) |
-| Micro Servo SG90| |+|+| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
-| TAMIYA Mini 4WD Kit |VZ Chassis and Your Favorite Body|+|+| [Link](https://www.amazon.co.jp/dp/B08C5FM9HM/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
+| Micro Servo | SG90 |+|+| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
+| TAMIYA Mini 4WD Kit |VZ Chassis and Your Favorite Body. Select Gear Rate 3.5:1 or 5:1|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/), [Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/), [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dpB08VX3W3Q6/), [Penguin](https://www.amazon.co.jp//B0043RYKPW/)| [Neo-VQS](https://www.amazon.com/dp/B083JYP59Y/) |
 | TAMIYA Mini 4WD Roller parts | Need Spacer and M2x10 screws|+|+| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp//B005GJCC9C/) |
 | M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [Link](https://www.amazon.co.jp/dp/B01MXVKDOM/) | [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
 | TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
-| Micro USB Cable | Short cable |+| | [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
-| USB Type-C Cable | Short cable | |+| [Link](https://www.amazon.co.jp/dp/B091YK5KVY/) | [Link]https://www.amazon.com/dp/B08NCTCSYB/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
+| Micro USB Cable | Short cable |+| | [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| USB Type-C Cable | Short cable | |+| [Link](https://www.amazon.co.jp/dp/B091YK5KVY/) | [Link](https://www.amazon.com/dp/B08NCTCSYB/) |
+| Game Pad | F710 | |+| [Link](https://www.amazon.co.jp/dp/B00475S13W/) | [Link](https://www.amazon.com/dp/B0041RR0TW/) |
 
 # 3D Printed Parts
 
