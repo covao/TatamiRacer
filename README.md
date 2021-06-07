@@ -12,7 +12,7 @@ Youtube Link
 
 # Bills of materials(BOM)
 | Name | Remarks |Minimum|Recomend| Amazon JP | Amazon US|
-|:---:|:---|:---|:---|
+|:---:|:---|:---|:---|:---|:---|
 | Raspberry Pi3 Model B+ |+|| | [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
 | Raspberry Pi4 |||+| [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dpB07TC2BK1X) |
 | Raspberry Pi Camera Module V1  | |+|| [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
