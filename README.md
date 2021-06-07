@@ -26,7 +26,8 @@ Youtube Link
 | TAMIYA Mini 4WD Roller parts | Need Spacer and M2x10 screws|+|+| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp/B075FM86KG/) |
 | M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [Link](https://www.amazon.co.jp/dp/B01MXVKDOM/) | [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
 | TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
-| Micro USB Cable | Short cable 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| Micro USB Cable | Short cable |+| | [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| USB Type-C Cable | Short cable | |+| [Link](https://www.amazon.co.jp/dp/B08NCTCSYB/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL/) |
 
 # 3D Printed Parts
