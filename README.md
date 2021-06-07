@@ -11,22 +11,22 @@ Youtube Link
 
 
 # Bills of materials(BOM)
-| Name | Remarks | Amazon JP | Amazon US|
+| Name | Remarks |Minimum|Recomend| Amazon JP | Amazon US|
 |:---:|:---|:---|:---|
-| Raspberry Pi3 Model B+ | | [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
-| Raspberry Pi4 | | [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dpB07TC2BK1X) |
-| Raspberry Pi Camera Module V1  | | [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
-| Raspberry Pi Camera Module V2  | | [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
-| Micro SD Card | For Raspberry Pi/32GB| [Link](https://www.amazon.co.jp/dp/B088TYHF8V/) | [Link](https://www.amazon.com/dp//B00M55BS8G) |
-| Mobile Battery | Size:6.2x9.15x1.15cm Voltage:5V Current:Up to 2A |[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
-| Motor Driver Module| For DC Motor/H-Bridge| [Link](https://www.amazon.co.jp/dp/B078X88R27/) | [Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
-| 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/https://www.amazon.com/dp/B0743835CY) |
-| Micro Servo | SG90| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
-| TAMIYA Mini 4WD Kit | VZ Chassis and Your Favorite Body| [Link](https://www.amazon.co.jp/dp/B08C5FM9HM/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
-| TAMIYA Mini 4WD Roller parts | Include M2 screws| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp/B075FM86KG/) |
-| TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
-| Micro USB Cable | Short cable 10cm| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
-| Jumper Cable | Female connector to Female connector 10cm| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL/) |
+| Raspberry Pi3 Model B+ |+|| | [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
+| Raspberry Pi4 |||+| [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dpB07TC2BK1X) |
+| Raspberry Pi Camera Module V1  | |+|| [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
+| Raspberry Pi Camera Module V2  |||+| [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
+| Micro SD Card | For Raspberry Pi/32GB|+|+| [Link](https://www.amazon.co.jp/dp/B088TYHF8V/) | [Link](https://www.amazon.com/dp//B00M55BS8G) |
+| Mobile Battery | Size:6.2x9.15x1.15cm Voltage:5V Current:Up to 2A |+|+|[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
+| Motor Driver Module| For DC Motor/H-Bridge|+|+| [Link](https://www.amazon.co.jp/dp/B078X88R27/) |[Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
+| 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)|+|+| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/https://www.amazon.com/dp/B0743835CY) |
+| Micro Servo | SG90|+|+| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
+| TAMIYA Mini 4WD Kit |+|+| VZ Chassis and Your Favorite Body| [Link](https://www.amazon.co.jp/dp/B08C5FM9HM/) | [Link](https://www.amazon.com/dp/B083JYP59Y/) |
+| TAMIYA Mini 4WD Roller parts |+|+| Include M2 screws| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp/B075FM86KG/) |
+| TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
+| Micro USB Cable | Short cable 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL/) |
 
 # 3D Printed Parts
 
