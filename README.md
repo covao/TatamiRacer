@@ -64,4 +64,4 @@ See [How to Setup Software](doc/HowToSetupSoftware.md)
 
 # How to Calibrate TatamiRacer
 
-# How to Train TatamiRacer  
+# How to "Train" TatamiRacer by machine learning  
