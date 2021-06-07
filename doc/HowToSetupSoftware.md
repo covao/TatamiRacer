@@ -71,7 +71,7 @@ If you have VNC installed, you can use Remote Desktop.
 2. Launch Terminal window.
 
 # Install Donkey Car Application for Raspberry Pi
-## Method 1: Install by shell script 
+## Method 1: Install by Shell Script 
 1. First execute the following command.  
 ~~~
 sudo apt-get update
@@ -87,12 +87,12 @@ sh -x install_donkey_raspi.sh
 ~~~
 The shell script is here. [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
 
-## Method 2: Install manually step by step
+## Method 2: Install Manually Step by Step
 Please see following procedure.
 - [Get Your Raspberry Pi Working Step6 -Step12 ](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-6-update-and-upgrade)
 - [Create your car application](https://docs.donkeycar.com/guide/create_application/)
 
-# Setup TatamiRacer by shell script 
+# Setup TatamiRacer by Shell Script 
 The following command will replace 'manage.py' and 'config.py' and add 'tatamiracer_test.py' for TatamiRacer.  
 In addition it will create the shortcut into desktop.  
 ~~~
