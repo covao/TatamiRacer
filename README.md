@@ -1,17 +1,17 @@
-![TatamiRacer Logo](img/TatamiRacer_LogoM.png)
-# TatamiRacer
+![TatamiRacerLogo](img/TatamiRacer_LogoM.png)
+# "TatamiRacer"
 TatamiRacer is tiny autonomous driving car.  
 It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).  
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
 ["DonkeyCar"](http://docs.donkeycar.com/), open source software is available for deep-learning and self-driving control.  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
-Youtube Link  
+Youtube_Link  
 <a href="https://www.youtube.com/watch?v=b-pkVy8e3DA"><img src="img/TatamiRacer_video.jpg" alt="" title="" width="320" height=""></a>  
 
 
 # Bills of materials(BOM)
-| Parts Name | Remarks |Minimum|Recommend|Amazon JP|Amazon US|
+| Parts Name | Remarks |Minimum Configuration|Recommend|Amazon JP|Amazon US|
 |:---|:---|:---:|:---:|:---:|:---:|
 | Raspberry Pi 3 Model B+ | |+|| [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
 | Raspberry Pi 4 |Select 2GB or 4GB RAM||+| [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dpB07TC2BK1X) |
