@@ -27,8 +27,8 @@ Youtube_Link
 | M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [Link](https://www.amazon.co.jp/dp/B01MXVKDOM/) | [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
 | TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
-| Micro USB Cable | Short cable |+| | [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
-| Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
+| Micro USB Cable | Short cable |+| | [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
 | Game Pad | F710 | |+| [Link](https://www.amazon.co.jp/dp/B00475S13W/) | [Link](https://www.amazon.com/dp/B0041RR0TW/) |
 
 # 3D Printed Parts
