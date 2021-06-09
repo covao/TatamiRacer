@@ -32,8 +32,8 @@ Youtube Link
 |マイクロ USB から Type-C へのアダプター | Raspberry pi 4 の場合 | |+| [リンク](https://www.amazon.co.jp/dp/B06XFL6159/) | [リンク](https://www.amazon.com/dp/B07G54XXZZ/) |
 |ゲームパッド | F710 | |+| [リンク](https://www.amazon.co.jp/dp/B00475S13W/) | [リンク](https://www.amazon.com/dp/B0041RR0TW/) |
 ||  || |  |  |
-| 概算費用 (Raspberry Pi とマイクロSD あり) |  |11,000 yen |20,000 yen |  |  |
-| 概算費用 (Raspberry Pi とマイクロSD なし) |  |6,000 yen |13,000 yen |  |  |
+| 概算費用 (Raspberry PiとマイクロSDカードあり) |  |11,000 yen |20,000 yen |  |  |
+| 概算費用 (Raspberry PiとマイクロSDカードなし) |  |6,000 yen |13,000 yen |  |  |
 
 
 # 3Dプリントパーツ
