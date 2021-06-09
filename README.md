@@ -1,4 +1,6 @@
-![TatamiRacerLogo](img/TatamiRacer_LogoM.png)  
+[日本語 Japanese](https://github.com/covao/TatamiRacer/blob/master/README_JP.md) / [English](https://github.com/covao/TatamiRacer/blob/master/README.md)  
+
+![TatamiRacerLogo](img/TatamiRacer_LogoM.png)    
 TatamiRacer is tiny autonomous driving car.  
 It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).  
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
@@ -45,7 +47,7 @@ Youtube Link
 Various type of Mini-4WD body can be attaced .e.g. [Amazon JP](https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%8B%E5%9B%9B%E9%A7%86+and+%E3%83%97%E3%83%A9%E3%83%A2%E3%83%87%E3%83%AB+and+%E3%82%B7%E3%83%A3%E3%83%BC%E3%82%B7&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&ref=nb_sb_noss), [Amazon US](https://www.amazon.com/s?k=tamiya+1%2F32+mini4wd&ref=nb_sb_noss)  
 <img src="img/Body_Selection.jpg" alt="" title="" width="640" height="">
 
-# 'Tatami Circuit Cource'
+# Tatami-Circuit Cource
 <img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
 
 # Lap Time Measurement
