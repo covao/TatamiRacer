@@ -33,7 +33,7 @@ Youtube Link
 |ゲームパッド | F710 | |+| [リンク](https://www.amazon.co.jp/dp/B00475S13W/) | [リンク](https://www.amazon.com/dp/B0041RR0TW/) |
 ||  || |  |  |
 | 概算費用 (Raspberry Pi とマイクロ SD あり) |  |11,000 yen |20,000 yen |  |  |
-|概算費用 (Raspberry Pi とマイクロ SD をなし) |  |7,000 yen |14,000 yen |  |  |
+|概算費用 (Raspberry Pi とマイクロ SD をなし) |  |6,000 yen |13,000 yen |  |  |
 
 
 # 3Dプリントパーツ
