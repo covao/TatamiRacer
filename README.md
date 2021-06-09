@@ -1,4 +1,4 @@
-![TatamiRacerLogo](img/TatamiRacer_LogoM.png)
+![TatamiRacerLogo](img/TatamiRacer_LogoM.png)  
 TatamiRacer is tiny autonomous driving car.  
 It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).  
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
