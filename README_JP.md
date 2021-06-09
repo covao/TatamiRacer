@@ -4,7 +4,7 @@
 TatamiRacer は、小さな自動運転車です。
 [TAMIYA ミニ四駆キット](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm)をベースにしています。  
 [畳](https://en.wikipedia.org/wiki/Tatami) マット1枚分(約1.8m×0.9m)で運転できます。  
-["Donkey Car"](http://docs.donkeycar.com/) は、深層学習と自動運転制御に利用できます。  
+["Donkey Car"](http://docs.donkeycar.com/)ソフトウエア は、深層学習と自動運転制御に利用できます。  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
 Youtube Link 
