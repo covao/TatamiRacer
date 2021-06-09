@@ -4,7 +4,7 @@
 TatamiRacer is tiny autonomous driving car.  
 It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).  
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
-["Donkey Car"](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
+["Donkey Car"](http://docs.donkeycar.com/) is available for deep-learning and self-driving control.  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
 Youtube Link 
@@ -26,11 +26,14 @@ Youtube Link
 | TAMIYA Mini 4WD Kit |VZ Chassis and Your Favorite Body. Select Gear Rate 3.5:1 or 5:1|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/), [Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/), [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)| [Neo-VQS](https://www.amazon.com/dp/B083JYP59Y/) |
 | TAMIYA Mini 4WD Roller parts | Need Spacer and M2x10 screws|+|+| [Link](https://www.amazon.co.jp/dp/B004LVOV8G/) | [Link](https://www.amazon.com/dp//B005GJCC9C/) |
 | M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [Link](https://www.amazon.co.jp/dp/B01MXVKDOM/) | [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
-| TAMIYA MINI4WD 72mm Shaft | Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
+| TAMIYA MINI4WD 72mm Shaft | For Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
-| Micro USB Cable | Short cable |+| | [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
+| Micro USB Cable | Short cable about 15cm |+| | [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
 | Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
 | Game Pad | F710 | |+| [Link](https://www.amazon.co.jp/dp/B00475S13W/) | [Link](https://www.amazon.com/dp/B0041RR0TW/) |
+||  || |  |  |
+| Approximate cost (with Raspberry Pi and micro SD) |  |11,000 yen |20,000 yen |  |  |
+| Approximate cost (without Raspberry Pi and micro SD) |  |7,000 yen |14,000 yen |  |  |
 
 # 3D Printed Parts
 
