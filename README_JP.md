@@ -28,7 +28,7 @@ Youtube Link
 | M2x15 または M2x16 mm ボルト |前輪シャフト用 |+|+| [リンク](https://www.amazon.co.jp/dp/B01MXVKDOM/) | [リンク](https://www.amazon.com/dp/B07YS5ZSZH/) |
 |タミヤ ミニ四駆 72mm シャフト |延長リヤシャフト用|+|+| [リンク](https://www.amazon.co.jp/dp/B003GALRS0/) | [リンク](https://www.amazon.com/dp/B002CAO2IC/) |
 |ジャンパーケーブル |メスコネクタからメスコネクタ 10cm|+|+| [リンク](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [リンク](https://www.amazon.com/dp/B0742RS6YL) |
-|マイクロ USB ケーブル |ショートケーブル 約15cm |+| | [リンク](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [リンク](https://www.amazon.com/dp/B01FA4JXN0/) |
+|マイクロ USB ケーブル |ショートケーブル 約15cm |+|+| [リンク](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [リンク](https://www.amazon.com/dp/B01FA4JXN0/) |
 |マイクロ USB から Type-C へのアダプター | Raspberry pi 4 の場合 | |+| [リンク](https://www.amazon.co.jp/dp/B06XFL6159/) | [リンク](https://www.amazon.com/dp/B07G54XXZZ/) |
 |ゲームパッド | F710 | |+| [リンク](https://www.amazon.co.jp/dp/B00475S13W/) | [リンク](https://www.amazon.com/dp/B0041RR0TW/) |
 ||  || |  |  |
