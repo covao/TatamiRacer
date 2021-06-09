@@ -62,8 +62,8 @@ Youtube Link
 [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)を参照してください  
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
 
-# [TatamiRacerの作り方](doc/HowToSetupSoftware.md) 
- [ソフトウェアのセットアップ方法](doc/HowToSetupSoftware.md) を参照してください  
+# [ソフトウェアのセットアップ方法](doc/HowToSetupSoftware.md)
+[ソフトウェアのセットアップ方法](doc/HowToSetupSoftware.md)を参照してください
 
 # TatamiRacer のキャリブレーション方法  
 
