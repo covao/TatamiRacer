@@ -1,15 +1,14 @@
 ![TatamiRacerLogo](img/TatamiRacer_LogoM.png)
 # "TatamiRacer"
 TatamiRacer is tiny autonomous driving car.  
-It is based on <div class="notranslate">["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm)</div>. 
+It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm).  
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
 ["DonkeyCar"](http://docs.donkeycar.com/), open source software is available for deep-learning and self-driving control.  
 
 ![TatamiRacer_short](img/TatamiRacer_short.gif)  
 Youtube_Link  
-<div class="notranslate">
 <a href="https://www.youtube.com/watch?v=b-pkVy8e3DA"><img src="img/TatamiRacer_video.jpg" alt="" title="" width="320" height=""></a>  
-</div>
+
 
 # Bills of materials(BOM)
 | Parts Name | Remarks |Minimum Configuration|Recommend|Amazon JP|Amazon US|
@@ -45,22 +44,21 @@ Youtube_Link
 
 # Body Selection
 Various type of Mini-4WD body can be attaced .e.g. [Amazon JP](https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%8B%E5%9B%9B%E9%A7%86+and+%E3%83%97%E3%83%A9%E3%83%A2%E3%83%87%E3%83%AB+and+%E3%82%B7%E3%83%A3%E3%83%BC%E3%82%B7&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&ref=nb_sb_noss), [Amazon US](https://www.amazon.com/s?k=tamiya+1%2F32+mini4wd&ref=nb_sb_noss)  
-<div class="notranslate">
 <img src="img/Body_Selection.jpg" alt="" title="" width="640" height="">
-</div>
+
+# Tatami Circuit Cource
+<img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
+
 # Lap Time Measurement
-<div class="notranslate">
 <img src="img/LapTimeMeasurement.jpg" alt="" title="" width="640" height="">  
-</div>
 Lap time measurement by smart phone camera  
 
 e.g. [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925)  
 
 # [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)
 See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)  
-<div class="notranslate">
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
-</div>
+
 # [How to Setup Software](doc/HowToSetupSoftware.md) 
 See [How to Setup Software](doc/HowToSetupSoftware.md)  
 
