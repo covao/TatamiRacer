@@ -41,7 +41,7 @@ Youtube Link
 ![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
 <img src="img/TatamiRacer_3D_Kit.png" alt="" title="" width="640" height="">  
   
-＃ 回路図
+# 回路図  
 <img src="img/TatamiRacer_Circuit.png" alt="" title="" width="640" height="">
 
 # ボディセレクション  
