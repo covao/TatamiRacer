@@ -31,6 +31,9 @@ Youtube Link
 |マイクロ USB ケーブル |ショートケーブル 約15cm |+| | [リンク](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [リンク](https://www.amazon.com/dp/B01FA4JXN0/) |
 |マイクロ USB から Type-C へのアダプター | Raspberry pi 4 の場合 | |+| [リンク](https://www.amazon.co.jp/dp/B06XFL6159/) | [リンク](https://www.amazon.com/dp/B07G54XXZZ/) |
 |ゲームパッド | F710 | |+| [リンク](https://www.amazon.co.jp/dp/B00475S13W/) | [リンク](https://www.amazon.com/dp/B0041RR0TW/) |
+||  || |  |  |
+| 概算費用 (Raspberry Pi とマイクロ SD あり) |  |11,000 yen |20,000 yen |  |  |
+|概算費用 (Raspberry Pi とマイクロ SD をなし) |  |7,000 yen |14,000 yen |  |  |
 
 
 # 3Dプリントパーツ
