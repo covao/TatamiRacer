@@ -32,8 +32,8 @@ Youtube Link
 | Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
 | Game Pad | F710 | |+| [Link](https://www.amazon.co.jp/dp/B00475S13W/) | [Link](https://www.amazon.com/dp/B0041RR0TW/) |
 ||  || |  |  |
-| Approximate cost (with Raspberry Pi and micro SD) |  |11,000 yen |20,000 yen |  |  |
-| Approximate cost (without Raspberry Pi and micro SD) |  |6,000 yen |13,000 yen |  |  |
+| Approximate cost (with Raspberry Pi and micro SD card) |  |11,000 yen |20,000 yen |  |  |
+| Approximate cost (without Raspberry Pi and micro SD card) |  |6,000 yen |13,000 yen |  |  |
 
 # 3D Printed Parts
 
