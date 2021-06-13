@@ -15,7 +15,7 @@ Youtube Link
 |部品名 |備考 |最小構成|推奨構成|Amazon-JP|Amazon-US|
 |:---|:---|:---:|:---:|:---:|:---:|
 | Raspberry Pi 3 モデル B+ | |+|| [リンク](https://www.amazon.co.jp/dp/B087R57WJX/) | [リンク](https://www.amazon.com/dp/B07P4LSDYV) |
-| Raspberry Pi 4 |2GB または 4GB RAM を選択||+| [リンク](https://www.amazon.co.jp/dp/B087TDC13Y/) | [リンク](https://www.amazon.com/B07TC2BK1X) |
+| Raspberry Pi 4 |2GB または 4GB RAM を選択||+| [リンク](https://www.amazon.co.jp/dp/B087TDC13Y/) | [リンク](https://www.amazon.com/dp/B07TC2BK1X) |
 | Raspberry Pi カメラ モジュール V1 | OV5647(オムニビジョン) |+|| [リンク](https://www.amazon.co.jp/dp/B07G572B3R/) | [リンク](https://www.amazon.com/dp/B07QNSJ32M/) |
 | Raspberry Pi カメラモジュール V2 | IMX219PQ(SONY) ||+| [リンク](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [リンク](https://www.amazon.com/dp/B07W6THFPH/) |
 |マイクロ SD カード | 16GB以上|+|+| [リンク](https://www.amazon.co.jp/dp/B088TYHF8V/) | [リンク](https://www.amazon.com/dp//B00M55BS8G) |
