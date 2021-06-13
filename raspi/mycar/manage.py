@@ -24,31 +24,51 @@ import pigpio
 import time
 #Steering parts for TatamiRacer
 class PWMSteering_TATAMI:
-    def __init__(self,
-                 controller=None,
-                 left_pulse=2000,
-                 right_pulse=1000):
-        import pigpio
+    def __init__(self,cfg):
+
         self.gpio_pin = 14 #Servo PWM pin
         self.pi = pigpio.pi()
         self.pigpio = pigpio
-        self.half_range = abs(right_pulse - left_pulse)/2
-        self.center = min(left_pulse,right_pulse) + self.half_range
-        self.left_pulse = left_pulse
-        self.right_pulse = right_pulse
-        print('PWM Steering for TatamiRacer created.')
+        
+        #tatamiRacer Steering Control Tunable Parameter
+        self.left_pulse = cfg.TATAMI_STEERING_LEFT_PWM #LEFT PWM
+        self.right_pulse = cfg.TATAMI_STEERING_RIGHT_PWM #RIGHT PWM
+        self.steering_feel = cfg.TATAMI_STEERING_FEEL #Steering Feeling Adjustment (Angle Level at Steering 50%)  
+        self.steering_balance = cfg.TATAMI_STEERING_BALANCE #Steering L/R Balance -1.0(L)..+1.0(R)
+
+        self.half_range = abs(self.right_pulse - self.left_pulse)/2
+        self.center = min(self.left_pulse,self.right_pulse) + self.half_range
+
+        print('PWM Steering for TatamiRacer Created.')
 
     def update(self):
         pass
         
     def run_threaded(self, angle):
         
-        servo_p=int( self.center - self.half_range*angle   )
-        if servo_p > max(self.right_pulse,self.left_pulse):
-            servo_p = self.right_pulse
-        elif servo_p < min(self.right_pulse,self.left_pulse):
+        #Steering Feeling Adjustment
+        ang_abs=np.abs(angle)
+        steering_half=0.5
+        if ang_abs < steering_half:
+            slope = self.steering_feel/steering_half
+            angle = np.sign(angle)*ang_abs*slope
+        else:
+            slope = (1.0-self.steering_feel)/(1.0-steering_half)
+            angle = np.sign(angle)* (self.steering_feel+(ang_abs-steering_half)*slope)
+            
+        #Steering Balance Adjustment
+        if angle>0:
+            angle =  angle * (1.0+self.steering_balance)
+        else:
+            angle =  angle * (1.0-self.steering_balance)
+                
+        #Steering PWM Calculation
+        servo_p = int( self.center - self.half_range*angle  )
+        if servo_p > self.left_pulse:
             servo_p = self.left_pulse
-        self.pi.set_servo_pulsewidth(self.gpio_pin, servo_p )
+        elif servo_p < self.right_pulse:
+            servo_p = self.right_pulse
+        self.pi.set_servo_pulsewidth(self.gpio_pin, servo_p)
 
     def run(self, angle):
         pass
@@ -59,65 +79,69 @@ class PWMSteering_TATAMI:
 
 #Throttle parts for TatamiRacer
 class PWMThrottle_TATAMI:
-    def __init__(self):
+    def __init__(self,cfg):
         self.gpio_pin0 = 13 #Motor PWM1 pin
         self.gpio_pin1 = 19 #Motor PWM2 pin
         self.pigpio = pigpio
         self.pi = pigpio.pi()
 
-        #TatamiRacer tunable parameter
-        self.boost_time = 0.5 #Throttle boost time[sec]
-        self.boost_offset = 0.85 #Throttle boost offset for start torque up(0..1)
-        self.throttle_deadzone = 0.01 #Throttle deadzone for detect zero (0..1)
-        self.throttle_upper_limit = 1.0 #Throttle upper limit (0..1)
-        self.throttle_lower_limit = 0.6 #Throttle lower limit (0..1)
-        self.angle_adjust = 0.7 #Throttle adjustment by steering angle (0..1)
-        self.angle_adjust_limit = 0.7 #Throttle limit of steering angle adjustment(0..1)
-        self.pwm_max = 100 #PWM Max
+        #TatamiRacer Throttle Control Tunable Parameter
+        self.throttle_boost_time = cfg.TATAMI_THROTTLE_BOOST_TIME #Throttle boost time[sec]
+        self.throttle_boost = cfg.TATAMI_THROTTLE_BOOST #Throttle boost offset for start torque up(0..1)
+        self.throttle_upper_limit = cfg.TATAMI_THROTTLE_UPPER_LIMIT #Throttle upper limit (0..1)
+        self.throttle_lower_limit = cfg.TATAMI_THROTTLE_LOWER_LIMIT #Throttle lower limit (0..1)
+        self.throttle_angle_adjust = cfg.TATAMI_THROTTLE_ANGLE_ADJUST #Throttle adjustment by steering angle (0..1)
 
+        self.throttle_deadzone = 0.01 #Throttle deadzone for detect zero (0..1)
+        self.pwm_max = 100 #PWM Max
         self.pi.set_PWM_range(self.gpio_pin0,100)  # Set PWM range
         self.pi.set_PWM_frequency(self.gpio_pin0,490)
         self.pi.set_PWM_range(self.gpio_pin1,100)  # Set PWM range
         self.pi.set_PWM_frequency(self.gpio_pin1,490)
         
-        self.boost_time0 = time.time()
+        self.throttle_boost_time0 = time.time()
         print('PWM Throttle for TatamiRacer created.')
 
     def update(self):
         pass
 
     def run_threaded(self, throttle,angle):
-        dash = 0.0
-        if np.abs(throttle)<=self.throttle_deadzone:
-            self.boost_time0 = time.time()
-            throttle_out = 0.0
-        else:
-            t = time.time()-self.boost_time0
-            if(t <= self.boost_time):
-                boost = self.boost_offset #Boost mode
-            else:
-                boost = 0.0
+                    
+        throttle_abs = np.abs(throttle)
 
-            if np.abs(throttle)<self.angle_adjust_limit:
-                adjust = np.abs(angle)*self.angle_adjust #steering angle adjustment
-            else:
-                adjust = 0.0
+        if throttle_abs<=self.throttle_deadzone:
+            self.throttle_boost_time0 = time.time()
+            throttle = 0.0
+
+        #Throttle Boost
+        t = time.time()-self.throttle_boost_time0
+        if(t <= self.throttle_boost_time):
+            boost = self.throttle_boost #Boost mode
+        else:
+            boost = 0.0
+
+        #Steering Resistance Adjustment
+        angle_adjust = throttle_abs+np.abs(angle)*self.throttle_angle_adjust
+
+        #Feeling 
+        if throttle_abs < self.throttle_lower_limit:
+            throttle_feel = self.throttle_lower_limit
+        elif throttle_abs > self.throttle_upper_limit:
+            throttle_feel = self.throttle_upper_limit
+        else:
+            slope = self.throttle_upper_limit-self.throttle_lower_limit
+            throttle_feel =self.throttle_lower_limit+ throttle_abs*slope
+                                
+        if throttle_abs > self.throttle_deadzone:
+            throttle = np.sign(throttle)*max(boost,angle_adjust,throttle_feel)      
                 
-            throttle_out = throttle+np.sign(throttle)*(adjust+boost)
-            
-            if np.abs(throttle_out) < self.throttle_lower_limit:
-                throttle_out = np.sign(throttle_out)*self.throttle_lower_limit
-            elif np.abs(throttle_out) > self.throttle_upper_limit:
-                throttle_out = np.sign(throttle_out)*self.throttle_upper_limit
-            
-        motor_v = int(self.pwm_max*throttle_out)
+        #Set Motor PWM 
+        motor_v = int(self.pwm_max*throttle)
         if np.abs(motor_v) > self.pwm_max:
             motor_v = int(np.sign(motor_v)*self.pwm_max)
-        
         if throttle > 0:
             self.pi.set_PWM_dutycycle(self.gpio_pin0,motor_v) # Set PWM duty
             self.pi.set_PWM_dutycycle(self.gpio_pin1,0) # PWM off
-
         else:
             self.pi.set_PWM_dutycycle(self.gpio_pin1,-motor_v) # Set PWM duty
             self.pi.set_PWM_dutycycle(self.gpio_pin0,0) # PWM off
@@ -731,10 +755,8 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
 
     elif cfg.DRIVE_TRAIN_TYPE == "PIGPIO_TATAMI": # PIGPIO Drive for TatamiRacer 
         from donkeycar.parts.actuator import PWMSteering, PWMThrottle
-        steering = PWMSteering_TATAMI(controller=None,
-                                        left_pulse=cfg.STEERING_LEFT_PWM, 
-                                        right_pulse=cfg.STEERING_RIGHT_PWM)
-        throttle = PWMThrottle_TATAMI()
+        steering = PWMSteering_TATAMI(cfg)
+        throttle = PWMThrottle_TATAMI(cfg)
         V.add(steering, inputs=['angle'], threaded=True)
         V.add(throttle, inputs=['throttle','angle'], threaded=True)
 
