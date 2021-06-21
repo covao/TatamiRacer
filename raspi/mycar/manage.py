@@ -86,12 +86,12 @@ class PWMThrottle_TATAMI:
         self.pi = pigpio.pi()
 
         #TatamiRacer Throttle Control Tunable Parameter
-        self.throttle_boost_time = cfg.TATAMI_THROTTLE_BOOST_TIME #Throttle boost time[sec]
-        self.throttle_boost = cfg.TATAMI_THROTTLE_BOOST #Throttle boost offset for start torque up(0..1)
-        self.throttle_upper_limit = cfg.TATAMI_THROTTLE_UPPER_LIMIT #Throttle upper limit (0..1)
-        self.throttle_lower_limit = cfg.TATAMI_THROTTLE_LOWER_LIMIT #Throttle lower limit (0..1)
-        self.throttle_angle_adjust = cfg.TATAMI_THROTTLE_ANGLE_ADJUST #Throttle adjustment by steering angle (0..1)
-
+        self.throttle_start_boost_time = cfg.TATAMI_THROTTLE_START_BOOST_TIME
+        self.throttle_start_boost = cfg.TATAMI_THROTTLE_START_BOOST
+        self.throttle_upper_limit = cfg.TATAMI_THROTTLE_UPPER_LIMIT
+        self.throttle_lower_limit = cfg.TATAMI_THROTTLE_LOWER_LIMIT
+        self.throttle_steering_boost = cfg.TATAMI_THROTTLE_STEERING_BOOST
+        
         self.throttle_deadzone = 0.01 #Throttle deadzone for detect zero (0..1)
         self.pwm_max = 100 #PWM Max
         self.pi.set_PWM_range(self.gpio_pin0,100)  # Set PWM range
@@ -99,7 +99,7 @@ class PWMThrottle_TATAMI:
         self.pi.set_PWM_range(self.gpio_pin1,100)  # Set PWM range
         self.pi.set_PWM_frequency(self.gpio_pin1,490)
         
-        self.throttle_boost_time0 = time.time()
+        self.throttle_start_boost_time0 = time.time()
         print('PWM Throttle for TatamiRacer created.')
 
     def update(self):
@@ -108,22 +108,21 @@ class PWMThrottle_TATAMI:
     def run_threaded(self, throttle,angle):
                     
         throttle_abs = np.abs(throttle)
-
         if throttle_abs<=self.throttle_deadzone:
-            self.throttle_boost_time0 = time.time()
+            self.throttle_start_boost_time0 = time.time()
             throttle = 0.0
 
         #Throttle Boost
-        t = time.time()-self.throttle_boost_time0
-        if(t <= self.throttle_boost_time):
-            boost = self.throttle_boost #Boost mode
+        t = time.time()-self.throttle_start_boost_time0
+        if(t <= self.throttle_start_boost_time):
+            boost = self.throttle_start_boost #Boost mode
         else:
             boost = 0.0
 
         #Steering Resistance Adjustment
-        angle_adjust = throttle_abs+np.abs(angle)*self.throttle_angle_adjust
+        angle_adjust = throttle_abs+np.abs(angle)*self.throttle_steering_boost
 
-        #Feeling 
+        #Throttle Feeling 
         if throttle_abs < self.throttle_lower_limit:
             throttle_feel = self.throttle_lower_limit
         elif throttle_abs > self.throttle_upper_limit:
