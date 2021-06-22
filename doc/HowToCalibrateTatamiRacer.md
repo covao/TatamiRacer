@@ -10,7 +10,7 @@ python tatamiracer_test.py
 <img src="../img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
 ## TatamiRacer PWM Controller
-TatamiRacer enhance motor power and feeling by following controller.
+TatamiRacer PWM controller enhance motor torque and feeling.
 <img src="../img/TatamiRacer_Controller.jpg" alt="" title="" width="640" height="">
 
 
