@@ -65,7 +65,10 @@ See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)
 
 # [How to Setup Software](doc/HowToSetupSoftware.md) 
 See [How to Setup Software](doc/HowToSetupSoftware.md)  
+<img src="img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
 # How to Calibrate TatamiRacer
+See [How to Calibrate TatamiRacer](doc/HowToCalibrateTatamiRacer.md)  
+<img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
 # How to Do Training TatamiRacer by Machine Learning  
