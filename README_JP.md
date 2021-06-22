@@ -67,9 +67,10 @@ Youtube Link
 
 # [ソフトウェアのセットアップ方法](doc/HowToSetupSoftware.md)
 [ソフトウェアのセットアップ方法](doc/HowToSetupSoftware.md)を参照してください
+<img src="img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
 # TatamiRacer のキャリブレーション方法
-See [TatamiRacerのキャリブレーション方法](doc/HowToCalibrateTatamiRacer.md)  
+[TatamiRacerのキャリブレーション方法](doc/HowToCalibrateTatamiRacer.md)を参照してください 
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
 
