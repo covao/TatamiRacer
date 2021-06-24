@@ -24,6 +24,7 @@ Purpose: Adjust the position of the steering center and steering limit
 5. Move servo PWM slider until steering stop.
 7. Click "Set Servo Limit" button.
 8. Turn on "Enable Servo Limit".
+9. Check the steering limit/
 
 ### Write the parameters to the "myconfig.py" file
 1. Click the "Write myconfig.py" button.
