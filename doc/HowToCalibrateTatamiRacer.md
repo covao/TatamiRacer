@@ -1,7 +1,7 @@
 # How to Calibrate TatamiRacer
 
 ## Start TatamiRacaer Test Tool  
-Lunch "TatamiRacer Test" shortcut or enter following command from terminal.
+Launch "TatamiRacer Test" from shortcut or enter following command from terminal.
 ~~~
 cd ~/mycar
 python tatamiracer_test.py
