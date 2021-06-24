@@ -14,6 +14,7 @@ TatamiRacer controller enhance the motor start torque and feeling.
 This is a block diagram that controls throttle and steering.
 <img src="../img/TatamiRacer_Controller.jpg" alt="" title="" width="640" height="">
 
+# Basic Calibration
 ## Calibrate Servo PWM
 Purpose: Adjust the position of the steering center and limit
 1. Turn off the "Enable Servo Limit" check button.
@@ -24,6 +25,7 @@ Purpose: Adjust the position of the steering center and limit
 7. Click "Set Servo Limit" button.
 8. Turn on "Enable Servo Limit".
 
+# Advanced Calibration
 ## Calibrate Throttle Start Boost
 Purpose: Smooth acceleration by increasing the starting torque
 1. Turn off the "Enable Boost&Limit" check button.
@@ -77,6 +79,6 @@ Purpose: Make left and right turns the same
 3. Set "Steering level" to about +0.8.(right side)
 4. Check the balance and adjust "Steering Balance" level
 
-## Write the parameters to the "myconfig.py" file
+# Write the parameters to the "myconfig.py" file
 1. Click the "Write myconfig.py" button.
 2. Press "Yes" in the dialog.
