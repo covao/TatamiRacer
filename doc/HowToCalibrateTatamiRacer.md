@@ -10,7 +10,7 @@ python tatamiracer_test.py
 <img src="../img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
 ## TatamiRacer Controller
-TatamiRacer controller enhance motor start torque and feeling.
+TatamiRacer controller enhance the motor start torque and feeling.
 This is a block diagram that controls throttle and steering.
 <img src="../img/TatamiRacer_Controller.jpg" alt="" title="" width="640" height="">
 
