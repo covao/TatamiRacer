@@ -50,7 +50,7 @@ Purpose: Improved throttle sensitivity
 3. Raise the throttle slider until the car moves.
 4. Reduce the throttle slider at the minimum value that the car keeps running.
 5. Click "Set Lower Limit" at the throttle level.
-6. If you want to reduce the maximum speed, set the Upper Limit.
+6. If you want to reduce the maximum speed, set the "Upper Limit" less than 1.0.
 7. Turn on the "Enable Boost&Limit" check button.
 8. Raise the throttle slider a little.
 9. Check that the car keeps running.
