@@ -25,7 +25,7 @@ Purpose: Adjust the position of the steering center and limit
 8. Turn on "Enable Servo Limit".
 
 ## Calibrate Throttle Start Boost
-Purpose: Increase the starting torque
+Purpose: Smooth acceleration by increasing the starting torque
 1. Turn off the "Enable Boost&Limit" check button.
 2. Set the throttle slider "Off".
 3. Raise the throttle slider until the the car starts running.
