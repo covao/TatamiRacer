@@ -31,7 +31,7 @@ Purpose: Adjust the position of the steering center and steering limit
 2. Press "Yes" in the dialog.
 
 ## Advanced Calibration
-### Calibrate Throttle Start Boost
+### Calibrate the Throttle Start Boost
 Purpose: Smooth acceleration by increasing the starting torque
 1. Turn off the "Enable Boost&Limit" check button.
 2. Set the throttle slider "Off".
