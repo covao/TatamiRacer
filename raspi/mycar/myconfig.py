@@ -49,16 +49,16 @@ CAMERA_HFLIP = True
 # #PIGPIO_PWM uses Raspberrys internal PWM
 DRIVE_TRAIN_TYPE = "PIGPIO_TATAMI" # SERVO_ESC|DC_STEER_THROTTLE|DC_TWO_WHEEL|DC_TWO_WHEEL_L298N|SERVO_HBRIDGE_PWM|PIGPIO_PWM|MM1|MOCK
 
-#TatamiRacer Tunable Parameter
-TATAMI_STEERING_LEFT_PWM = 1500+630 #PWM value for full left steering (Center PWM + steering level)
-TATAMI_STEERING_RIGHT_PWM = 1500-630 #PWM value for full right steering
+#TatamiRacer Tunable Parameter (TATAMI_*)
+TATAMI_STEERING_LEFT_PWM = 2172 #PWM value for full left steering (Center PWM + steering level)
+TATAMI_STEERING_RIGHT_PWM = 916 #PWM value for full right steering
 TATAMI_STEERING_FEEL = 0.3 #Steering Feeling Adjustment (Angle Level at Steering 50%)  
 TATAMI_STEERING_BALANCE = -0.1 #Steering L/R Balance -1.0(L)..+1.0(R)
-TATAMI_THROTTLE_BOOST_TIME = 0.5 #Throttle boost time[sec]
-TATAMI_THROTTLE_BOOST = 0.85 #Throttle boost offset for start torque up(0..1)
+TATAMI_THROTTLE_START_BOOST_TIME = 0.9 #Throttle boost time[sec]
+TATAMI_THROTTLE_START_BOOST = 1.0 #Throttle boost level for start torque up(0..1)
 TATAMI_THROTTLE_UPPER_LIMIT = 1.0 #Throttle upper limit (0..1)
-TATAMI_THROTTLE_LOWER_LIMIT = 0.6 #Throttle lower limit (0..1)
-TATAMI_THROTTLE_ANGLE_ADJUST = 0.7 #Throttle adjustment by steering angle (0..1)
+TATAMI_THROTTLE_LOWER_LIMIT = 0.8 #Throttle lower limit (0..1)
+TATAMI_THROTTLE_STEERING_BOOST = 1.0 #Throttle boost adjustment by steering angle (0..1)
 
 # 
 # #STEERING

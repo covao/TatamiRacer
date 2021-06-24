@@ -120,7 +120,7 @@ class PWMThrottle_TATAMI:
             boost = 0.0
 
         #Steering Resistance Adjustment
-        angle_adjust = throttle_abs+np.abs(angle)*self.throttle_steering_boost
+        angle_adjust = self.throttle_lower_limit+np.abs(angle)*(self.throttle_steering_boost-self.throttle_lower_limit)
 
         #Throttle Feeling 
         if throttle_abs < self.throttle_lower_limit:

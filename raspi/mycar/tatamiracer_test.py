@@ -2,6 +2,7 @@
 
 import pigpio
 import tkinter as tk
+from tkinter import messagebox
 import numpy as np
 import os
 import re
@@ -23,7 +24,7 @@ servo = tk.IntVar()
 servo_center = tk.IntVar()
 servo_limit = tk.IntVar()
 servo_limit_flag = tk.BooleanVar()
-throttle_limit_flag = tk.BooleanVar()
+throttle_boost_enable_flag = tk.BooleanVar()
 throttle = tk.DoubleVar()
 steering = tk.DoubleVar()
 
@@ -71,7 +72,7 @@ def set_config():
     tmp=int(servo_max-servo_min)/2
     servo_limit.set(tmp)
     servo_limit_flag.set(True)
-    throttle_limit_flag.set(True)
+    throttle_boost_enable_flag.set(True)
     servo_center.set(servo_min+tmp)
     servo.set(servo_center.get())
     motor.set(0)
@@ -87,35 +88,52 @@ def set_config():
     throttle_upper_limit.set(cfg.TATAMI_THROTTLE_UPPER_LIMIT)
     throttle_lower_limit.set(cfg.TATAMI_THROTTLE_LOWER_LIMIT)
     throttle_steering_boost.set(cfg.TATAMI_THROTTLE_STEERING_BOOST)
+    status()
     status2()
-    
+    disable_button()
+
 def load_config():
     f=open(fname)
     datalist=f.readlines()
+    f.close()
+    i=0
     for s in datalist:
         tmp = re.match(r'^(TATAMI_[A-z_0-9]+\s*[=].+)#',s)
         if tmp:
             exec('cfg.'+tmp.groups()[0])
-    f.close()
+        i=i+1
     set_config()
             
 def save_config():
-    ret = tk.messagebox.askyesno('Write configuration','Write myconfig.py?')
+    ret = messagebox.askyesno('Write configuration','Write myconfig.py?')
     if not ret:return    
     f = open(fname)
     datalist=f.readlines()
+    f.close()
     servo_max = servo_center.get()+servo_limit.get()
     servo_min = servo_center.get()-servo_limit.get()
+    cfg.TATAMI_STEERING_LEFT_PWM = servo_max 
+    cfg.TATAMI_STEERING_RIGHT_PWM = servo_min
+    cfg.TATAMI_STEERING_FEEL=steering_feel.get()
+    cfg.TATAMI_STEERING_BALANCE=steering_balance.get()
+    cfg.TATAMI_THROTTLE_START_BOOST_TIME=throttle_start_boost_time.get()
+    cfg.TATAMI_THROTTLE_START_BOOST=throttle_start_boost.get()
+    cfg.TATAMI_THROTTLE_UPPER_LIMIT=throttle_upper_limit.get()
+    cfg.TATAMI_THROTTLE_LOWER_LIMIT=throttle_lower_limit.get()
+    cfg.TATAMI_THROTTLE_STEERING_BOOST=throttle_steering_boost.get()
+    
+    print('Write Parameter into:' + fname)
     i = 0
     for s in datalist:
         tmp = re.match(r'^(TATAMI_[A-z_0-9]+)\s*[=].+(#.+$)',s)
         if tmp:
-            varname ='cfg.'+tmp.groups()[0]
-            val = str( eval(varname) )
+            varname =tmp.groups()[0]
+            val = str( eval('cfg.'+varname) )
             comment = tmp.groups()[1]
-        i=i+1
-    f.close()
-    
+            d = varname+" = "+val+" "+comment
+            datalist[i] = d+"\n"
+            print(d)
+        i = i + 1
     f=open(fname,'w')
     f.writelines(datalist)
     f.close()
@@ -151,12 +169,12 @@ def set_servo(x):
     status()
 
 def set_throttle(x):
-    global throttle_start_boost_val 
-    th=throttle.get()
-    throttle_abs = np.abs(th)
+    global throttle_start_boost_val
+    th_in = throttle.get()
+    throttle_abs = np.abs(th_in)
     
-    #Steering Resistance Adjustment
-    angle_adjust = throttle_abs+np.abs(steering.get())*throttle_steering_boost.get()
+    #Steering Boost
+    angle_adjust = throttle_lower_limit.get()+np.abs(steering.get())*(throttle_steering_boost.get()-throttle_lower_limit.get())
 
     #Feeling 
     if throttle_abs < throttle_lower_limit.get():
@@ -168,10 +186,10 @@ def set_throttle(x):
         throttle_feel = throttle_lower_limit.get() + throttle_abs*slope
                           
     if throttle_abs > throttle_deadzone:
-        if servo_limit_flag.get():
-            th = np.sign(th)*max(throttle_start_boost_val,angle_adjust,throttle_feel)
+        if throttle_boost_enable_flag.get():
+            th = np.sign(th_in)*max(throttle_start_boost_val,angle_adjust,throttle_feel)
         else:
-            th = np.sign(throttle_abs)
+            th = th_in
     else:
         th=0
     s1.set(th*100)
@@ -224,7 +242,7 @@ def disable_button():
         b3.config(state=tk.NORMAL)
         b4.config(state=tk.NORMAL)
         
-    if throttle_limit_flag.get():
+    if throttle_boost_enable_flag.get():
         b12.config(state=tk.DISABLED)
         b11.config(state=tk.DISABLED)
         b9.config(state=tk.DISABLED)
@@ -283,7 +301,7 @@ s3.pack(fill=tk.BOTH)
 b10 = tk.Button(f4, text= 'Off', command = lambda:s3.set(0) )
 b10.pack()
 
-c2 = tk.Checkbutton(f4, text= 'Enable Boost&Limit' ,variable = throttle_limit_flag,
+c2 = tk.Checkbutton(f4, text= 'Enable Boost&Limit' ,variable = throttle_boost_enable_flag,
                     command = lambda :[disable_button(),s3.set(0)] )
 c2.pack(side=tk.RIGHT)
 b12 = tk.Button(f4, text= 'Set Upper Limit',
