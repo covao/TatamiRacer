@@ -71,4 +71,4 @@ See [How to Setup Software](doc/HowToSetupSoftware.md)
 See [How to Calibrate TatamiRacer](doc/HowToCalibrateTatamiRacer.md)  
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
-# How to Do Training TatamiRacer by Machine Learning  
+# How to Train TatamiRacer by Machine Learning  
