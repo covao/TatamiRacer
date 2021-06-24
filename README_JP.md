@@ -73,5 +73,6 @@ Youtube Link
 [TatamiRacerのキャリブレーション方法](doc/HowToCalibrateTatamiRacer.md)を参照してください 
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
+# TatamiRacerの運転方法
 
 # 機械学習によるTatamiRacerのトレーニング方法  
