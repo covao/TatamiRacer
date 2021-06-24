@@ -77,3 +77,6 @@ Purpose: Make left and right turns the same
 3. Set "Steering level" to about +0.8.(right side)
 4. Check the balance and adjust "Steering Balance" level
 
+## Write the parameters to the "myconfig.py" file
+1. Click the "Write myconfig.py" button.
+2. Press "Yes" in the dialog.
