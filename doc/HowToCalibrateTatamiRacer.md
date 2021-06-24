@@ -77,7 +77,7 @@ Purpose: Improved control of small steering angles
 3. Check the steering feeling.
 
 ### Calibrate the Steering Balance
-Purpose: Make left and right turns the same
+Purpose: Make left and right turns the same level
 1. Set "Steering level" to about -0.8. (left side)
 2. Run the car and check turn level.
 3. Set "Steering level" to about +0.8.(right side)
