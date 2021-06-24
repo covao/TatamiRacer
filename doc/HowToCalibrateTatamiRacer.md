@@ -14,8 +14,8 @@ TatamiRacer controller enhance the motor start torque and feeling.
 This is a block diagram that controls throttle and steering.
 <img src="../img/TatamiRacer_Controller.jpg" alt="" title="" width="640" height="">
 
-# Basic Calibration
-## Calibrate Servo PWM
+## Basic Calibration
+### Calibrate Servo PWM
 Purpose: Adjust the position of the steering center and limit
 1. Turn off the "Enable Servo Limit" check button.
 2. Adjust center position by "Servo PWM" slider.
@@ -25,8 +25,12 @@ Purpose: Adjust the position of the steering center and limit
 7. Click "Set Servo Limit" button.
 8. Turn on "Enable Servo Limit".
 
-# Advanced Calibration
-## Calibrate Throttle Start Boost
+### Write the parameters to the "myconfig.py" file
+1. Click the "Write myconfig.py" button.
+2. Press "Yes" in the dialog.
+
+## Advanced Calibration
+### Calibrate Throttle Start Boost
 Purpose: Smooth acceleration by increasing the starting torque
 1. Turn off the "Enable Boost&Limit" check button.
 2. Set the throttle slider "Off".
@@ -38,7 +42,7 @@ Purpose: Smooth acceleration by increasing the starting torque
 8. Check that the car starts running.
 9. Adjust "Start Boost Time" for smooth acceleration.
 
-## Calibrate the Throttle Feel
+### Calibrate the Throttle Feel
 Purpose: Improved throttle sensitivity
 1. Turn off the "Enable Boost&Limit" check button.
 2. Set the throttle slider "Off".
@@ -50,7 +54,7 @@ Purpose: Improved throttle sensitivity
 8. Raise the throttle slider a little.
 9. Check that the car keeps running.
 
-## Calibrate the Throttle Steering Boost
+### Calibrate the Throttle Steering Boost
 Purpose: Improved torque when cornering
 1. Turn off the "Enable Boost&Limit" check button.
 2. Set the throttle slider "Off".
@@ -66,19 +70,17 @@ Purpose: Improved torque when cornering
 12. Set the Steerling slide min (left side).
 13. Check that the car keeps running.
 
-## Calibrate the Steering Feel
+### Calibrate the Steering Feel
 Purpose: Improved control of small steering angles
 1. Adjust "Steering Feel" slider.
 2. Move Steering slider from left to right.
 3. Check the steering feeling.
 
-## Calibrate the Steering Balance
+### Calibrate the Steering Balance
 Purpose: Make left and right turns the same
 1. Set "Steering level" to about -0.8. (left side)
 2. Run the car and check turn level.
 3. Set "Steering level" to about +0.8.(right side)
 4. Check the balance and adjust "Steering Balance" level
 
-# Write the parameters to the "myconfig.py" file
-1. Click the "Write myconfig.py" button.
-2. Press "Yes" in the dialog.
+
