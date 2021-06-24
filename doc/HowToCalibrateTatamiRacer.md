@@ -16,7 +16,7 @@ This is a block diagram that controls throttle and steering.
 
 ## Basic Calibration
 ### Calibrate Servo PWM
-Purpose: Adjust the position of the steering center and limit
+Purpose: Adjust the position of the steering center and steering limit
 1. Turn off the "Enable Servo Limit" check button.
 2. Adjust center position by "Servo PWM" slider.
 3. Click "Set Servo Center" button.
