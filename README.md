@@ -64,13 +64,15 @@ See [How to Build TatamiRacer](doc/HowToBuildTatamiRacer.md)
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
 
 # [How to Setup Software](doc/HowToSetupSoftware.md) 
-See [How to Setup Software](doc/HowToSetupSoftware.md)  
+See [How To Setup Software](doc/HowToSetupSoftware.md)  
 <img src="img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
 # How to Calibrate TatamiRacer
-See [How to Calibrate TatamiRacer](doc/HowToCalibrateTatamiRacer.md)  
+See [How To Calibrate TatamiRacer](doc/HowToCalibrateTatamiRacer.md)  
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
 # How to Get Driving
+See [How to Get Driving](doc/HowToGetDriving.md)  
+<img src="img/browser_control.jpg" alt="" title="" width="640" height="">
 
 # How to Train TatamiRacer by Machine Learning  
