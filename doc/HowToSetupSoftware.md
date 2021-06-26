@@ -32,6 +32,10 @@ Internet connection on Raspberry Pi is required before installation.
 5. Launch command prompt and enter following command.  
  Check network connection between host pc and raspberry pi.  
 ~~~
+ ping raspberrypi
+~~~
+OR
+~~~
  ping raspberrypi.local
 ~~~
 
