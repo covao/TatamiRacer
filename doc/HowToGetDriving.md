@@ -21,8 +21,8 @@ http://raspberrypi:8887/drive
 
 <img src="../img/browser_control.jpg" alt="" title="" width="640" height="">
 
-3.  Select Control Mode
-- Joystick mode
+3.  Select Control Mode　　
+- Joystick mode　　
 It can be control by touch screen.
 - Gemepad mode
 It can be controlled by the gamepad connected to the host PC.
