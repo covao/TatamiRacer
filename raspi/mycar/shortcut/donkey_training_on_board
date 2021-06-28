@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Type=Application
 Name=Donkey Training on Board
-Exec=lxterminal -e "source env/bin/activate;set -x;cd ~/mycar;donkey train --tub ./data/ --model mypilot.tflite --type tflite_linear;read -p 'Press Enter';"
+Exec=lxterminal -e "source env/bin/activate;set -x;cd ~/mycar;date;donkey train --tub ./data/ --model ./models/mypilot.h5;python ~/projects/donkeycar/scripts/tflite_convert.py --model=./models/mypilot.h5 --out=./models/mypilot.tflite;date;echo $(($SECONDS/60)) min;read -p 'Press Enter';"
 Icon=/home/pi/mycar/tatamiracer_icon.png
 Comment=
