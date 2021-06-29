@@ -2,7 +2,7 @@
 TatamiRacer can be operated remotely with the web browser.  
 This article is how to drive with a donkey car web controller.  
 See below for more information.
-- [Drive your car](https://docs.donkeycar.com/guide/get_driving/)
+- [Donkey Car > Drive your car](https://docs.donkeycar.com/guide/get_driving/)
 
 ## Remote control with a web browser  
 1. Start "Donky Drive" from the shortcut or enter following command from terminal.  
