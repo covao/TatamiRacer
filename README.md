@@ -76,3 +76,6 @@ See [How to Get Driving](doc/HowToGetDriving.md)
 <img src="img/browser_control.jpg" alt="" title="" width="640" height="">
 
 # How to Train TatamiRacer by Machine Learning  
+ In Preparation
+# How To Customize TatamiRacer
+ In Preparation
