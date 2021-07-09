@@ -77,5 +77,9 @@ See [How to Get Driving](doc/HowToGetDriving.md)
 
 # How to Train TatamiRacer by Machine Learning  
  In Preparation
+
 # How To Customize TatamiRacer
+ In Preparation
+
+# TatamiRacer JetsonNano Version
  In Preparation
