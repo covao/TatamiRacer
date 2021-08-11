@@ -39,6 +39,9 @@ class PWMSteering_TATAMI:
         self.half_range = abs(self.right_pulse - self.left_pulse)/2
         self.center = min(self.left_pulse,self.right_pulse) + self.half_range
 
+        self.servo_idle_time0 = time.time()
+        self.servo_p0 = 0
+
         print('PWM Steering for TatamiRacer Created.')
 
     def update(self):
@@ -68,8 +71,19 @@ class PWMSteering_TATAMI:
             servo_p = self.left_pulse
         elif servo_p < self.right_pulse:
             servo_p = self.right_pulse
-        self.pi.set_servo_pulsewidth(self.gpio_pin, servo_p)
-
+        
+        if self.servo_p0 != servo_p: #PWM not changed
+            self.servo_idle_time0=time.time() #Count idle time
+            servo_idle_time = 0
+        else:
+            servo_idle_time=time.time()-self.servo_idle_time0
+        self.servo_p0 = servo_p
+        
+        if servo_idle_time <= 5.0:
+            self.pi.set_servo_pulsewidth(self.gpio_pin, servo_p)
+        else: #Servo power off
+            self.pi.set_servo_pulsewidth(self.gpio_pin, 0)
+            
     def run(self, angle):
         pass
 
