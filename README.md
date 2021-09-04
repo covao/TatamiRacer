@@ -14,17 +14,18 @@ Youtube Link
 # Bills of materials(BOM)
 | Parts Name | Remarks |Minimum Configuration|Recommend Configuration|Amazon-JP|Amazon-US|
 |:---|:---|:---:|:---:|:---:|:---:|
-| Raspberry Pi 3 Model B+ | |+|| [Link](https://www.amazon.co.jp/dp/B087R57WJX/) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
-| Raspberry Pi 4 |Select 2GB or 4GB RAM||+| [Link](https://www.amazon.co.jp/dp/B087TDC13Y/) | [Link](https://www.amazon.com/dp/B07TC2BK1X) |
+| Raspberry Pi 3 Model B+ | |+|| [Link](https://www.amazon.co.jp/dp/B01NAHBSUD) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
+| Raspberry Pi 4 |Select 2,4 or 8GB RAM||+| [Link](https://www.amazon.co.jp/dp/B095K5WTQ2/) | [Link](https://www.amazon.com/dp/B07TC2BK1X) |
 | Raspberry Pi Camera Module V1 | OV5647(Omnivision) |+|| [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
-| Raspberry Pi Camera Module V2 | IMX219PQ(SONY) ||+| [Link](https://www.amazon.co.jp/dp/B07W6NK7TW/) | [Link](https://www.amazon.com/dp/B07W6THFPH/) |
+| Raspberry Pi Camera Module V2 | IMX219PQ(SONY) ||+| [Link](https://www.amazon.co.jp/dp/B01F1SWTZE/) | [Link](https://www.amazon.com/dp/B083BHJZ16/) |
 | Micro SD Card | 16GB or more|+|+| [Link](https://www.amazon.co.jp/dp/B088TYHF8V/) | [Link](https://www.amazon.com/dp//B00M55BS8G) |
 | Mobile Battery | Size:6.2x9.15x1.15cm Voltage:5V Current:Up to 2A |+|+|[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
 | Motor Driver Module| For DC Motor/H-Bridge|+|+| [Link](https://www.amazon.co.jp/dp/B078X88R27/) |[Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
-| 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)|+|+| [Link](https://www.amazon.co.jp/dp/B005AFBLIA/) | [Link](https://www.amazon.com/dp/B01ERLPVJW) |
+| 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)|+|+|[TAMIYA](https://www.amazon.co.jp/dp/B005AFBLIA/),[uxcell](https://www.amazon.com/dp/B07CWLWRYJ/) | [Link](https://www.amazon.com/dp/B01ERLPVJW) |
 | Micro Servo |TowerPro SG90 |+|+| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B07MLR1498/) |
 | TAMIYA Mini 4WD Kit |VZ Chassis and Your Favorite Body. Select Gear Rate 3.5:1 or 5:1 (Recommend 5:1 Gear )|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/), [Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/), [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)| [Neo-VQS](https://www.amazon.com/dp/B083JYP59Y/) |
-| TAMIYA Mini 4WD Roller parts | Need Spacer and M2x10 screws|+|+| [15381](https://www.amazon.co.jp/dp/B001E40PXI/) | [Link](https://www.amazon.com/dp/B005GJCC9C/) |
+|TAMIYA Gear set |5:1が必要な場合|||[リンク](https://www.amazon.com/dp/B0043RN7W4/)|[リンク](https://www.amazon.com/dp//B009WJG2ES/|
+| TAMIYA Mini 4WD Roller parts | Need Spacer and M2x10 screws|+|+| [15381](https://www.amazon.co.jp/dp/B001E40PXI/) | [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Neo-VQS](https://www.amazon.com/dp/B005GJCC9C/) |
 | M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [15508](https://www.amazon.co.jp/dp/B01MXVKDOM/),  [15232](https://www.amazon.co.jp/dp/B001VZ89Q0/)| [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
 | TAMIYA MINI4WD 72mm Shaft | For Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
