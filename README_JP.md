@@ -23,8 +23,8 @@ Youtube Link
 |モータードライバーモジュール| DCモーター/H-Bridge用|+|+| [リンク](https://www.amazon.co.jp/dp/B078X88R27/) |[リンク](https://www.amazon.com/dp/B07Y1QJZK3/) |
 | 130 DC モーター |低速 (<8000 RPM) および低電流 (<500m A)|+|+| [TAMIYA](https://www.amazon.co.jp/dp/B005AFBLIA/),[uxcell](https://www.amazon.com/dp/B07CWLWRYJ/) | [TAMIYA](https://www.amazon.com/dp/B07Y1QJZK3) |
 |マイクロサーボ | TowerPro SG90 |+|+| [リンク](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [リンク](https://www.amazon.com/dp/B07MLR1498/) |
-|タミヤ ミニ四駆キット |VZシャーシとお好みのボディ。ギア レート 3.5:1 または 5:1 を選択します。(5：1ギアをお勧めします）|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/) , [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)|[TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Neo-VQS](https://www.amazon.com/dp/B005GJCC9C/) |
-|タミヤ ギアセット |If you need 5:1|||[Link](https://www.amazon.com/dp/B0043RN7W4/)|[Link](https://www.amazon.com/dp//B009WJG2ES/|
+|タミヤ ミニ四駆キット |VZシャーシとお好みのボディ。(5：1ギアをお勧めします）|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/) , [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)|[TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Neo-VQS](https://www.amazon.com/dp/B005GJCC9C/) |
+|タミヤ ギアセット |5:1が必要な場合|||[リンク](https://www.amazon.com/dp/B0043RN7W4/)|[リンク](https://www.amazon.com/dp//B009WJG2ES/)|
 |タミヤ ミニ四駆 ローラーパーツ | スペーサーと M2x10 ネジ が必要です。 |+|+| [15381](https://www.amazon.co.jp/dp/B001E40PXI/) | [リンク](https://www.amazon.com/dp/B005GJCC9C/) |
 | M2x15 または M2x16 mm ボルト |前輪シャフト用 |+|+| [15508](https://www.amazon.co.jp/dp/B01MXVKDOM/),  [15232](https://www.amazon.co.jp/dp/B001VZ89Q0/)| [リンク](https://www.amazon.com/dp/B07YS5ZSZH/) |
 |タミヤ ミニ四駆 72mm シャフト |延長リヤシャフト用|+|+| [リンク](https://www.amazon.co.jp/dp/B003GALRS0/) | [リンク](https://www.amazon.com/dp/B002CAO2IC/) |
