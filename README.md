@@ -15,7 +15,7 @@ Youtube Link
 | Parts Name | Remarks |Minimum Configuration|Recommend Configuration|Amazon-JP|Amazon-US|
 |:---|:---|:---:|:---:|:---:|:---:|
 | Raspberry Pi 3 Model B+ | |+|| [Link](https://www.amazon.co.jp/dp/B01NAHBSUD) | [Link](https://www.amazon.com/dp/B07P4LSDYV) |
-| Raspberry Pi 4 |Select 2,4 or 8GB RAM||+| [Link](https://www.amazon.co.jp/dp/B095K5WTQ2/) | [Link](https://www.amazon.com/dp/B07TC2BK1X) |
+| Raspberry Pi 4 |Select 2,4 or 8GB RAM||+| [Link](https://www.amazon.co.jp/dp/B09GRVDPCX/) | [Link](https://www.amazon.com/dp/B07TC2BK1X) |
 | Raspberry Pi Camera Module V1 | OV5647(Omnivision) |+|| [Link](https://www.amazon.co.jp/dp/B07G572B3R/) | [Link](https://www.amazon.com/dp/B07QNSJ32M/) |
 | Raspberry Pi Camera Module V2 | IMX219PQ(SONY) ||+| [Link](https://www.amazon.co.jp/dp/B01F1SWTZE/) | [Link](https://www.amazon.com/dp/B083BHJZ16/) |
 | Micro SD Card | 16GB or more|+|+| [Link](https://www.amazon.co.jp/dp/B088TYHF8V/) | [Link](https://www.amazon.com/dp//B00M55BS8G) |
