@@ -26,7 +26,7 @@ Youtube Link
 | TAMIYA Mini 4WD Kit |VZ Chassis and Your Favorite Body. Select Gear Rate 3.5:1 or 5:1 (Recommend 5:1 Gear )|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/), [Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/), [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)| [Neo-VQS](https://www.amazon.com/dp/B083JYP59Y/) |
 |TAMIYA Gear Set |If you need 5:1|||[Link](https://www.amazon.co.jp/dp/B009WJG2ES/)|[Link](https://www.amazon.com/dp/B0043RN7W4/)|
 | TAMIYA Mini 4WD Roller parts | Need Spacer and M2x10 screws|+|+| [15381](https://www.amazon.co.jp/dp/B001E40PXI/) | [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Neo-VQS](https://www.amazon.com/dp/B005GJCC9C/) |
-| M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [15508](https://www.amazon.co.jp/dp/B01MXVKDOM/),  [15232](https://www.amazon.co.jp/dp/B001VZ89Q0/)| [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
+| M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [15508](https://www.amazon.co.jp/dp/B01MXVKDOM/),  [15233](https://www.amazon.co.jp/dp/B001VZE9MS/)| [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
 | TAMIYA MINI4WD 72mm Shaft | For Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
 | Micro USB Cable | Short cable about 15cm |+|+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
