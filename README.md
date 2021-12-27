@@ -69,7 +69,7 @@ See [How To Setup Software](doc/HowToSetupSoftware.md)
 <img src="img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
 #  How to Calibration TatamiRacer
-See [TatamiRacerのキャリブレーション方法](doc/HowToCalibrateTatamiRacer.md)
+See [How to Calibration TatamiRacer](doc/HowToCalibrateTatamiRacer.md)
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
 # How to Get Driving
