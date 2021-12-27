@@ -8,19 +8,19 @@
 ### Step 2 Assembling Front Steering Unit
 <img src="../img/step2.jpg" alt="" title="" width="640" height=""> 
 
-### Step 3 Assembling Front Steering Unit
+### Step 3 Assembling Servo Motor
 <img src="../img/step3.jpg" alt="" title="" width="640" height=""> 
 
-### Step 4 Assembling Servo Motor
+### Step 4 Mounting Front Steering Unit 
 <img src="../img/step4.jpg" alt="" title="" width="640" height=""> 
 
-### Step 5 Mounting Front Wheel Parts
+### Step 5 Fixing Mount Parts
 <img src="../img/step5.jpg" alt="" title="" width="640" height=""> 
 
-### Step 6 Fixing Mount Parts
+### Step 6 Assembling Rear Wheel Unit
 <img src="../img/step6.jpg" alt="" title="" width="640" height=""> 
 
-### Step7 Assembling Camera Module and Front Parts
+### Step7 Assembling Camera Module and Rear Wheel
 <img src="../img/step7.jpg" alt="" title="" width="640" height=""> 
 
 ### Step8 Making Motor Driver and Harness 
