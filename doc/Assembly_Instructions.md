@@ -20,7 +20,7 @@
 ### Step 6 Assembling Rear Wheel Unit
 <img src="../img/step6.jpg" alt="" title="" width="640" height=""> 
 
-### Step7 Assembling Camera Module and Rear Wheel
+### Step7 Assembling Camera Module 
 <img src="../img/step7.jpg" alt="" title="" width="640" height=""> 
 
 ### Step8 Making Motor Driver and Harness 
