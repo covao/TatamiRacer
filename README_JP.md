@@ -62,7 +62,7 @@ Youtube Link
 
 例えば [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925)  
 
-# [TatamiRacerの組み立て方法](doc/Assembly_Instructions_JP.md.md)  
+# [TatamiRacerの組み立て方法](doc/Assembly_Instructions_JP.md)  
 [TatamiRacerの組み立て方法](doc/Assembly_Instructions_JP.md)を参照してください  
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
 
