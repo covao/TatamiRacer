@@ -1,4 +1,6 @@
 # TatamiRacer Assembly Instructions 
+### All Parts 
+<img src="../img/all_parts.jpg" alt="" title="" width="640" height="">
 
 ### Step 1 Assembling Front Wheel Parts
 <img src="../img/step1.jpg" alt="" title="" width="640" height="">
