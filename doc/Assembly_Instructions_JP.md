@@ -1,4 +1,4 @@
-# TatamiRacer 組み立て説明 
+# TatamiRacer 組み立て方法 
 ### 全パーツ 
 <img src="../img/all_parts.jpg" alt="" title="" width="640" height="">
 
