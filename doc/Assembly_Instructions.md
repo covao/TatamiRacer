@@ -14,10 +14,10 @@
 ### Step 4 Mounting Front Steering Unit 
 <img src="../img/step4.jpg" alt="" title="" width="640" height=""> 
 
-### Step 5 Fixing Mount Parts
+### Step 5 Assembling Rear Wheel Unit
 <img src="../img/step5.jpg" alt="" title="" width="640" height=""> 
 
-### Step 6 Assembling Rear Wheel Unit
+### Step 6 Fixing Mount Parts
 <img src="../img/step6.jpg" alt="" title="" width="640" height=""> 
 
 ### Step7 Assembling Camera Module 
