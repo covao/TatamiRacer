@@ -14,7 +14,7 @@
 ### Step 4 Mounting Front Steering Unit 
 <img src="../img/step4.jpg" alt="" title="" width="640" height=""> 
 
-### Step 5 Assembling Rear Wheel Unit
+### Step 5 Assembling Rear Wheel Drive Unit
 <img src="../img/step5.jpg" alt="" title="" width="640" height=""> 
 
 ### Step 6 Fixing Mount Parts
