@@ -14,7 +14,7 @@
 ### Step 4 フロントステアリングユニット取り付け
 <img src="../img/step4.jpg" alt="" title="" width="640" height=""> 
 
-### Step 5 後輪ユニットの組み立て
+### Step 5 後輪駆動ユニットの組み立て
 <img src="../img/step5.jpg" alt="" title="" width="640" height=""> 
 
 ### Step 6 マウントパーツの取り付け
