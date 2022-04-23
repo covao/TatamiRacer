@@ -84,12 +84,11 @@ If you have VNC installed, you can use Remote Desktop.
 ## Method 1: Install by Shell Script 
 1. First execute the following command.  
 ~~~
-sudo apt-get update
-sudo apt-get upgrade
+yes | sudo apt-get update
+yes | sudo apt-get upgrade
 
 ~~~
-*Press q when you see the following message.  
- `if webkit2gtk (2.31.1-1) experimental; urgency=medium ...`  
+
 
 2. The following command will install the latest Donkey Car application and create default "mycar" application.
 ~~~
