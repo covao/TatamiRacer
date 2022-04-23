@@ -59,6 +59,7 @@ Remote desktop environment is useful to access Raspberry pi from host pc.
 sudo apt-get update
 sudo apt install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config nonint do_vnc 0
+
 ~~~
 2. Set screen resolution
 Select "Advanced Options-> Resolution" (At least 1280 x 720 recommended.)
