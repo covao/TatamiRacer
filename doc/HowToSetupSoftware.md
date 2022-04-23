@@ -9,10 +9,10 @@ This article is installation of Donkey car software and custamiization for Tatam
 3. Lunch Raspberry Pi imager
 4. Choose "Raspberry Pi OS(32BIT)
 <img src="../img/RaspberryPiImager.jpg" alt="" title="" width="640" height="">
-
-5. Write Raspbian OS to your micro SD card.
-6. Un plugging and re-inserting micro SD card.
-7. Check the SD card drive. Boot files are appeared if OS image was flashed successfuly.
+5. If you press advanced configration button, you can set WIFI, host name, SSH, user name and password, local setting.
+6. Write Raspbian OS to your micro SD card.
+7. Un plugging and re-inserting micro SD card.
+8. Check the SD card drive. Boot files are appeared if OS image was flashed successfuly.
 
 # Setup the WiFi for Raspberry Pi
 Internet connection on Raspberry Pi is required before installation.
@@ -33,16 +33,19 @@ Internet connection on Raspberry Pi is required before installation.
  Check network connection between host pc and raspberry pi.  
 ~~~
  ping raspberrypi
+ 
 ~~~
 OR
 ~~~
  ping raspberrypi.local
+ 
 ~~~
 
 6. Launch ssh by following command.  
 ~~~
 ssh-keygen -R raspberrypi
 ssh pi@raspberrypi
+
 ~~~
 If "The authenticity of host 'raspberrypi... Are you sure you want to continue connecting (yes/no)?" is appeared, enter yes.  
 
@@ -61,10 +64,12 @@ sudo raspi-config nonint do_vnc 0
 Select "Advanced Options-> Resolution" (At least 1280 x 720 recommended.)
 ~~~
 sudo raspi-config
+
 ~~~
 3. Enter exit 
 ~~~
 exit
+
 ~~~
 4. Installation on the host PC is also requreired.  
 Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
@@ -80,6 +85,7 @@ If you have VNC installed, you can use Remote Desktop.
 ~~~
 sudo apt-get update
 sudo apt-get upgrade
+
 ~~~
 *Press q when you see the following message.  
  `if webkit2gtk (2.31.1-1) experimental; urgency=medium ...`  
@@ -88,6 +94,7 @@ sudo apt-get upgrade
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh" -O "install_donkey_raspi.sh"
 sh -x install_donkey_raspi.sh
+
 ~~~
 The shell script is here. [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
 
@@ -102,6 +109,7 @@ In addition it will create the shortcut into desktop.
 ~~~
 wget "https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh" -O "setup_tatamiracer.sh"
 sh -x setup_tatamiracer.sh
+
 ~~~
 The shell script is here. [setup_tatamiracer.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/setup_tatamiracer.sh)
 
