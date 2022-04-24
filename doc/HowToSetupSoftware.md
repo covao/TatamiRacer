@@ -1,15 +1,15 @@
 # How To Setup Software
 
 TatamiRacer can use DonkeyCar software.  
-This article is installation of DonkeyCar software and custamiization for TatamiRacer.  
+This article is about installing DonkeyCar software and custumizing TatamiRacer.  
 
 # Install Raspberry Pi OS using Raspberry Pi Imager
-1. Download Raspberry pi Imager from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
-2. Install Raspberry Pi Imager.
-3. Lunch Raspberry Pi imager
+1. Download "Raspberry Pi Imager" from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
+2. Install "Raspberry Pi Imager".
+3. Start "Raspberry Pi imager".
 4. Downlowd Raspberry Pi OS zip file from the following site.  
 https://downloads.raspberrypi.org/raspios_oldstable_armhf/images/raspios_oldstable_armhf-2021-12-02/  
-See note Raspbian Latest (<span translate="no">bullseye</span>) issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
+See note Raspbian Latest (Bullseye) issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
 
 5. If you press advanced configration button, you can set WIFI, host name, SSH, user name and password, local setting.
 6. Write Raspbian OS to your micro SD card.
@@ -51,7 +51,7 @@ ssh pi@raspberrypi
 ~~~
 If "The authenticity of host 'raspberrypi... Are you sure you want to continue connecting (yes/no)?" is appeared, enter yes.  
 
-7. Enter password. (Initial password:raspberry) 
+7. Enter password. Initial Password:<code>raspberry</code>
 
 # Setup VNC
 Remote desktop environment is useful to access Raspberry pi from host pc.  
