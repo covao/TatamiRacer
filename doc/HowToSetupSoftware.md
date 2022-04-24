@@ -7,7 +7,7 @@ This article is about installing DonkeyCar software and custumizing TatamiRacer.
 1. Download "Raspberry Pi Imager" from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
 2. Install "Raspberry Pi Imager".
 3. Start "Raspberry Pi imager".
-4. Downlowd Raspberry Pi OS zip file from the following site.  
+4. Downlowd Raspberry Pi OS zip file from the following site.(Stable Raspbian version for TatamiRacer)  
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/  
 
 See note Raspbian Latest (Bullseye) issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
@@ -88,7 +88,8 @@ yes | sudo apt-get update
 yes | sudo apt-get upgrade
 
 ~~~
-
+*Press q when you see the following message.
+if webkit2gtk (2.31.1-1) experimental; urgency=medium ...
 
 2. The following command will install the latest Donkey Car application and create default "mycar" application.
 ~~~
