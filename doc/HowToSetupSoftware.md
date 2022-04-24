@@ -3,16 +3,16 @@
 # How To Setup Software
 
 TatamiRacer can use DonkeyCar software.  
-This article is about installing DonkeyCar software and custumizing TatamiRacer.  
+This page describes about installing DonkeyCar software and custumizing TatamiRacer.  
 
 # Install Raspberry Pi OS using Raspberry Pi Imager
 1. Download "Raspberry Pi Imager" from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
 2. Install "Raspberry Pi Imager".
 3. Start "Raspberry Pi imager".
-4. Downlowd Raspberry Pi OS zip file from the following site.(Stable Raspbian version for TatamiRacer)  
+4. Downlowd Raspbian-OS file from the following site.(Stable Raspbian version for TatamiRacer)  
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/  
 
-See note Raspbian Latest (Bullseye) issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
+See note of Raspbian Bullseye issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
 
 5. If you press advanced configration button, you can set WIFI, host name, SSH, user name and password, local setting.
 6. Write Raspbian OS to your micro SD card.
@@ -26,7 +26,7 @@ Internet connection on Raspberry Pi is required before installation.
 2. Plug USB power supply of Raspi.
 3. Login Raspberry Pi Desktop
 4. Set Wifi configuration from Raspberry pi Desktop  
- Please see [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
+ See [Wireless connectivity in the Raspberry Pi Desktop](https://bwww.raspberrypi.org/documentation/configuration/wireless/desktop.md)
 ## - Method 2: WiFi setting by boot configuration file (Remote access is available without Raspi monitor and keyboard.) 
 1. Create wpa_supplicant.conf in the top of SD card then edit ssid and password by texteditor  
  Please see ["Setting up a Raspberry Pi headless"](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/)
@@ -75,7 +75,7 @@ sudo raspi-config
 3. Select exit and reboot.  
 
 4. Installation on the host PC is also requreired.  
-Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
+See ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/).  
 
 # Launch Raspberry Pi Desktop
 If you have VNC installed, you can use Remote Desktop.
@@ -102,7 +102,7 @@ sh -x install_donkey_raspi.sh
 The shell script is here. [install_donkey_raspi.sh](https://raw.githubusercontent.com/covao/TatamiRacer/master/raspi/install/install_donkey_raspi.sh)
 
 ## Method 2: Install Manually Step by Step
-Please see following procedure.
+See following procedure.
 - [Get Your Raspberry Pi Working Step6 -Step12 ](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-6-update-and-upgrade)
 - [Create your car application](https://docs.donkeycar.com/guide/create_application/)
 
