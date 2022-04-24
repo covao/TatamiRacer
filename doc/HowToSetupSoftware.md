@@ -64,7 +64,7 @@ yes | sudo raspi-config nonint do_vnc 0
 
 ~~~
 2. Set screen resolution
-Select "Advanced Options-> Resolution" (At least 1280 x 720 recommended.)
+Select "Display Options-> Resolution" (At least 1280 x 720 recommended.)
 ~~~
 sudo raspi-config
 
