@@ -1,3 +1,5 @@
+[Japanese(Google Translate)](https://github-com.translate.goog/covao/TatamiRacer/blob/master/doc/Assembly_Instructions.md?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=wapp)  
+
 # TatamiRacer Assembly Instructions 
 ### All Parts 
 <img src="../img/all_parts.jpg" alt="" title="" width="640" height="">
@@ -20,10 +22,10 @@
 ### Step 6 Fixing Mount Parts
 <img src="../img/step6.jpg" alt="" title="" width="640" height=""> 
 
-### Step7 Assembling Camera Module 
+### Step 7 Assembling Camera Module 
 <img src="../img/step7.jpg" alt="" title="" width="640" height=""> 
 
-### Step8 Making Motor Driver and Harness 
+### Step 8 Making Motor Driver and Harness 
 <img src="../img/step8.jpg" alt="" title="" width="640" height=""> 
 
 ### Step 9 Installing Raspberry PI Board and Battery
