@@ -91,7 +91,7 @@ yes | sudo apt-get upgrade
 
 ~~~
 *Press q when you see the following message.
-if webkit2gtk (2.31.1-1) experimental; urgency=medium ...
+<code>if webkit2gtk (2.31.1-1) experimental; urgency=medium ...</code>
 
 2. The following command will install the latest Donkey Car application and create default "mycar" application.
 ~~~
