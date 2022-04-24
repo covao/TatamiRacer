@@ -8,7 +8,8 @@ This article is about installing DonkeyCar software and custumizing TatamiRacer.
 2. Install "Raspberry Pi Imager".
 3. Start "Raspberry Pi imager".
 4. Downlowd Raspberry Pi OS zip file from the following site.  
-https://downloads.raspberrypi.org/raspbian/images/raspbian-2020-02-14/    
+https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/  
+
 See note Raspbian Latest (Bullseye) issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
 
 5. If you press advanced configration button, you can set WIFI, host name, SSH, user name and password, local setting.
@@ -69,11 +70,8 @@ Select "Display Options-> Resolution" (At least 1280 x 720 recommended.)
 sudo raspi-config
 
 ~~~
-3. Enter exit 
-~~~
-exit
+3. Select exit and reboot.  
 
-~~~
 4. Installation on the host PC is also requreired.  
 Please see ["VNC (Virtual Network Computing)"](https://www.raspberrypi.org/documentation/remote-access/vnc/)  
 
