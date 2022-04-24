@@ -1,3 +1,5 @@
+[English](https://github.com/covao/TatamiRacer/blob/master/doc/HowToSetupSoftware.md) / [日本語 Japanese(Google Translate)](https://github-com.translate.goog/covao/TatamiRacer/blob/master/doc/HowToSetupSoftware.md?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=wapp)  
+
 # How To Setup Software
 
 TatamiRacer can use DonkeyCar software.  
