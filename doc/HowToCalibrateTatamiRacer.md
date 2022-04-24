@@ -21,25 +21,25 @@ This is a block diagram that controls throttle and steering.
 Purpose: Adjust the position of the steering center and steering limit
 1. Turn off the <code>"Enable Servo Limit"</code> check button.
 2. Adjust center position by <code>"Servo PWM"</code> slider.
-3. Click <code>"Set Servo Center"</code> button.
+3. Click <code>"Set Servo Center"</code> push button.
 4. Check running straight by <code>"Motor PWM"</code> slider.
 5. Move <code>"servo PWM"</code> slider until steering stop.
-7. Click <code>"Set Servo Limit"<code> button.
-8. Turn on <code>"Enable Servo Limit"<code>.
+7. Click <code>"Set Servo Limit"</code> push button.
+8. Turn on <code>"Enable Servo Limit"</code> check button..
 9. Check the steering limit.
 
 ### Write the parameters to the "myconfig.py" file
 1. Click the <code>"Write myconfig.py"</code> button.
-2. Press <code>"Yes"</code> in the dialog.
+2. Press <code>"Yes"</code> button in the dialog.
 
 ## Advanced Calibration
 ### Calibrate the Throttle Start Boost
 Purpose: Smooth acceleration by increasing the starting torque
 1. Turn off the <code>"Enable Boost&Limit"</code> check button.
-2. Set the throttle slider <code>"Off"</code>.
+2. Set the throttle slider to Off.
 3. Raise the throttle slider until the the car starts running.
 4. Click <code>"Set Start Boost"</code> at the throttle level.   
-5. Set the throttle slider <code>"Off"</code>.
+5. Set the throttle slider to Off.
 6. Turn on the <code>"Enable Boost&Limit"</code> check button.
 7. Raise the throttle slider a little.
 8. Check that the car starts running.
@@ -48,7 +48,7 @@ Purpose: Smooth acceleration by increasing the starting torque
 ### Calibrate the Throttle Feel
 Purpose: Improved throttle sensitivity
 1. Turn off the <code>"Enable Boost&Limit"</code> check button.
-2. Set the throttle slider <code>"Off"</code>.
+2. Set the throttle slider to Off.
 3. Raise the throttle slider until the car moves.
 4. Reduce the throttle slider at the minimum value that the car keeps running.
 5. Click <code>"Set Lower Limit"</code> at the throttle level.
@@ -60,11 +60,11 @@ Purpose: Improved throttle sensitivity
 ### Calibrate the Throttle Steering Boost
 Purpose: Improved torque when cornering
 1. Turn off the <code>"Enable Boost&Limit"</code> check button.
-2. Set the throttle slider <code>"Off"</code>.
+2. Set the throttle slider to Off.
 3. Set the Steerling slide max.
 4. Raise the throttle slider until the car moves.
 5. Reduce the throttle slider at the minimum value that the car keeps running.
-6. Click "Set Steering Boost" at the throttle level.
+6. Click <code>"Set Steering Boost"</code> at the throttle level.
 7. Turn on the <code>"Enable Boost&Limit"</code> check button.
 8. Set the Steerling slide at center.
 9. Raise the throttle slider a little.
