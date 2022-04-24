@@ -56,9 +56,9 @@ Remote desktop environment is useful to access Raspberry pi from host pc.
 1. You can install VNC with the following command.  
 (You can enter the command from remote ssh or Raspberry pi desktop ternminal.)  
 ~~~
-sudo apt-get update
-sudo apt install realvnc-vnc-server realvnc-vnc-viewer
-sudo raspi-config nonint do_vnc 0
+yes | sudo apt-get update
+yes | sudo apt install realvnc-vnc-server realvnc-vnc-viewer
+yes | sudo raspi-config nonint do_vnc 0
 
 ~~~
 2. Set screen resolution
