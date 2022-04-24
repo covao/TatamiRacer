@@ -28,7 +28,7 @@
 ### Step 8. Making Motor Driver and Harness 
 <img src="../img/step8.jpg" alt="" title="" width="640" height=""> 
 
-### Step 9. Installing Raspberry PI Board and Battery
+### Step 9. Attaching Raspberry PI Board and Battery
 <img src="../img/step9.jpg" alt="" title="" width="640" height=""> 
 
 ### Step 10. Attaching the body
