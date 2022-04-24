@@ -52,7 +52,7 @@ ssh-keygen -R raspberrypi
 ssh pi@raspberrypi
 
 ~~~
-If "The authenticity of host 'raspberrypi... Are you sure you want to continue connecting (yes/no)?" is appeared, enter yes.  
+If <code>"The authenticity of host 'raspberrypi... Are you sure you want to continue connecting (yes/no)?"</code> is appeared, enter yes.  
 
 7. Enter password. Initial Password:<code>raspberry</code>
 
