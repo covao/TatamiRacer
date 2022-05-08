@@ -75,4 +75,3 @@ YouTube
 [TatamiRacerの運転方法](doc/HowToGetDriving.md)を参照してください   
 <img src="img/browser_control.jpg" alt="" title="" width="640" height="">
 
-# 機械学習によるTatamiRacerのトレーニング方法  
