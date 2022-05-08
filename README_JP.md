@@ -57,7 +57,7 @@ YouTube
 <img src="img/LapTimeMeasurement.jpg" alt="" title="" width="640" height="">  
 スマートフォンカメラによるラップタイム計測  
 
-例えば [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925)  
+例 [Mini4 Lap Timer](https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925)  
 
 # [TatamiRacerの組み立て方法](doc/Assembly_Instructions.md)  
 [TatamiRacerの組み立て方法](doc/Assembly_Instructions.md)を参照してください  
