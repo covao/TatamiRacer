@@ -6,8 +6,10 @@ It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/japan/mini4wd/inde
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
 ["Donkey Car"](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
 
-YouTube  
+### YouTube  
+TatamiRacer  
 [![](https://img.youtube.com/vi/b-pkVy8e3DA/0.jpg)](https://www.youtube.com/watch?v=b-pkVy8e3DA)  
+TatamiRacer at Maker Faire Tokyo 2022  
 [![](https://img.youtube.com/vi/s3ll8Y1OPn8/0.jpg)](https://www.youtube.com/watch?v=s3ll8Y1OPn8)  
 
 # Bills of materials(BOM)
