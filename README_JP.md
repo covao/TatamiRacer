@@ -8,6 +8,7 @@ TatamiRacer は、小さな自動運転車です。
 
 YouTube  
 [![](https://img.youtube.com/vi/b-pkVy8e3DA/0.jpg)](https://www.youtube.com/watch?v=b-pkVy8e3DA)
+[![](https://img.youtube.com/vi/s3ll8Y1OPn8/0.jpg)](https://www.youtube.com/watch?v=s3ll8Y1OPn8)
 
 # 部品表(BOM)
 |部品名 |備考 |最小構成|推奨構成|Amazon-JP|Amazon-US|
