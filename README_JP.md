@@ -6,8 +6,10 @@ TatamiRacer は、小さな自動運転車です。
 [畳](https://en.wikipedia.org/wiki/Tatami) マット1枚分(約1.8m×0.9m)で運転できます。  
 ["Donkey Car"](http://docs.donkeycar.com/)ソフトウエアを、深層学習と自動運転制御に利用できます。  
 
-YouTube  
+### YouTube  
+TatamiRacer  
 [![](https://img.youtube.com/vi/b-pkVy8e3DA/0.jpg)](https://www.youtube.com/watch?v=b-pkVy8e3DA)  
+TatamiRacer at Maker Faire Tokyo 2022  
 [![](https://img.youtube.com/vi/s3ll8Y1OPn8/0.jpg)](https://www.youtube.com/watch?v=s3ll8Y1OPn8)  
 
 # 部品表(BOM)
