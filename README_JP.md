@@ -65,11 +65,11 @@ TatamiRacer at Maker Faire Tokyo 2022
 [ソフトウェアのセットアップ方法](doc/HowToSetupSoftware.md)を参照してください
 <img src="img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
-# TatamiRacer のキャリブレーション方法
+# [TatamiRacer のキャリブレーション方法](doc/HowToCalibrateTatamiRacer.md)
 [TatamiRacerのキャリブレーション方法](doc/HowToCalibrateTatamiRacer.md)を参照してください 
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
-# TatamiRacerの運転方法
+# [TatamiRacerの運転方法](doc/HowToGetDriving.md)
 [TatamiRacerの運転方法](doc/HowToGetDriving.md)を参照してください   
 <img src="img/browser_control.jpg" alt="" title="" width="640" height="">
 
