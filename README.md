@@ -22,6 +22,7 @@ TatamiRacer at Maker Faire Tokyo 2022
 | Micro SD Card | 16GB or more|+|+| [Link](https://www.amazon.co.jp/dp/B088TYHF8V/) | [Link](https://www.amazon.com/dp//B00M55BS8G) |
 | Mobile Battery | Size:6.2x9.15x1.15cm Voltage:5V Current:Up to 2A |+|+|[Link](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [Link](https://www.amazon.com/dp/B082X53VDL/) |
 | Motor Driver Module| For DC Motor/H-Bridge|+|+| [Link](https://www.amazon.co.jp/dp/B078X88R27/) |[Link](https://www.amazon.com/dp/B07Y1QJZK3/) |
+| Pin Headder | Male 90deg / For Motor Dirver|+|+| [Link](https://www.amazon.co.jp/dp/B00V4V703O/) |[Link](https://www.amazon.com/dp/B0979568B3/) |
 | 130 DC Motor | Low Speed (<8000 RPM) and Low Current(<500m A)|+|+|[TAMIYA](https://www.amazon.co.jp/dp/B005AFBLIA/),[uxcell](https://www.amazon.co.jp/dp/B07CWLWRYJ/) | [Link](https://www.amazon.com/dp/B01ERLPVJW) |
 | Micro Servo |TowerPro SG90 |+|+| [Link](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [Link](https://www.amazon.com/dp/B07MLR1498/) |
 | TAMIYA Mini 4WD Kit |VZ Chassis and Your Favorite Body. Select Gear Rate 3.5:1 or 5:1 (Recommend 5:1 Gear )|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/), [Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/), [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)| [Neo-VQS](https://www.amazon.com/dp/B083JYP59Y/) |
@@ -32,16 +33,16 @@ TatamiRacer at Maker Faire Tokyo 2022
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
 | Micro USB Cable | Short cable about 15cm |+|+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
 | Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
-| Game Pad | F710 | |+| [Link](https://www.amazon.co.jp/dp/B00475S13W/) | [Link](https://www.amazon.com/dp/B0041RR0TW/) |
+| Gamepad | USB or Bluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/) [PS4 Gamepad](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/) [PS4 Gamepad](https://www.amazon.co.jp/dp/B00475S13W/) |
 ||  || |  |  |
 | Approximate cost (without Raspberry Pi and micro SD card) |  |6,000 yen |13,000 yen |  |  |
 
 # 3D Printed Parts
 
-![Assembly (STL Viewer)](3d/tatamiracer_assembly.stl)  
+## [Assembly (STL Viewer)](3d/tatamiracer_assembly.stl)  
 <img src="img/TatamiRacer_3D_Assembly.png" alt="" title="" width="640" height="">  
   
-![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
+## [Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
 <img src="img/TatamiRacer_3D_Kit.png" alt="" title="" width="640" height="">  
   
 # Circuit Diagram
@@ -54,7 +55,7 @@ Various type of Mini-4WD body can be attaced .e.g. [Amazon JP](https://www.amazo
 # Tatami-Circuit Cource
 <img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
 
-# TatamiRacer Assembly Instructions
+# [TatamiRacer Assembly Instructions](doc/Assembly_Instructions.md)
 See [TatamiRacer Assembly Instructions](doc/Assembly_Instructions.md)  
 <img src="img/TatamiRacerBuild.jpg" alt="" title="" width="640" height="">
 
@@ -66,6 +67,6 @@ See [How To Setup Software](doc/HowToSetupSoftware.md)
 See [How to Calibrate TatamiRacer](doc/HowToCalibrateTatamiRacer.md)  
 <img src="img/tatamiracer_test.jpg" alt="" title="" width="640" height="">
 
-# How to Get Driving
+# [How to Get Driving](doc/HowToGetDriving.md)
 See [How to Get Driving](doc/HowToGetDriving.md)  
 <img src="img/browser_control.jpg" alt="" title="" width="640" height="">
