@@ -4,7 +4,7 @@
 TatamiRacer is tiny autonomous driving car.  
 It is based on ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/japan/mini4wd/index.html).  
 You can drive on one [Tatami](https://en.wikipedia.org/wiki/Tatami) mat space(Approximately 1.8m x 0.9m).  
-["Donkey Car"](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
+["DonkeyCar"](http://docs.donkeycar.com/) software is available for deep-learning and self-driving control.  
 
 ### YouTube  
 TatamiRacer  
