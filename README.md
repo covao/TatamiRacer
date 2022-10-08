@@ -33,7 +33,7 @@ TatamiRacer at Maker Faire Tokyo 2022
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
 | Micro USB Cable | Short cable about 15cm |+|+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
 | Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
-| Gamepad | USB or Bluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/) [PS4 Gamepad](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/) [PS4 Gamepad](https://www.amazon.co.jp/dp/B00475S13W/) |
+| Gamepad | USB or Bluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/), [PS4 Gamepad](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4 Gamepad](https://www.amazon.co.jp/dp/B00475S13W/) |
 ||  || |  |  |
 | Approximate cost (without Raspberry Pi and micro SD card) |  |6,000 yen |13,000 yen |  |  |
 
