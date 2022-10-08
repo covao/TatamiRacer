@@ -33,7 +33,7 @@ TatamiRacer at Maker Faire Tokyo 2022
 |ジャンパーケーブル |メスコネクタからメスコネクタ 10cm|+|+| [リンク](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [リンク](https://www.amazon.com/dp/B0742RS6YL) |
 |マイクロ USB ケーブル |ショートケーブル 約15cm |+|+| [リンク](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [リンク](https://www.amazon.com/dp/B01FA4JXN0/) |
 |マイクロ USB から Type-C へのアダプター | Raspberry pi 4 の場合 | |+| [リンク](https://www.amazon.co.jp/dp/B06XFL6159/) | [リンク](https://www.amazon.com/dp/B07G54XXZZ/) |
-|ゲームパッド| USBまたはBluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B00475S13W/) |
+|ゲームパッド| USBまたはBluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B0B53146Z7/) |
 ||  || |  |  |
 | 概算費用 (Raspberry PiとマイクロSDカードなし) |  |6,000 yen |13,000 yen |  |  |
 
