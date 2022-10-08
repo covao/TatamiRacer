@@ -3,7 +3,7 @@
 ![TatamiRacerLogo](img/TatamiRacer_LogoM.png)    
 TatamiRacer は、小さな自動運転車です。
 [TAMIYA ミニ四駆キット](https://www.tamiya.com/japan/mini4wd/index.html)をベースにしています。  
-[畳](https://en.wikipedia.org/wiki/Tatami) マット1枚分(約1.8m×0.9m)で運転できます。  
+[畳](https://en.wikipedia.org/wiki/Tatami)一畳(約1.8m×0.9m)で運転できます。  
 ["Donkey Car"](http://docs.donkeycar.com/)ソフトウエアを、深層学習と自動運転制御に利用できます。  
 
 ### YouTube  
@@ -22,6 +22,7 @@ TatamiRacer at Maker Faire Tokyo 2022
 |マイクロ SD カード | 16GB以上|+|+| [リンク](https://www.amazon.co.jp/dp/B088TYHF8V/) | [リンク](https://www.amazon.com/dp//B00M55BS8G) |
 |モバイルバッテリー |サイズ:6.2x9.15x1.15cm 電圧:5V 電流:最大2A |+|+|[リンク](https://www.amazon.co.jp/dp/B07SN2R3S2/) | [リンク](https://www.amazon.com/dp/B082X53VDL/) |
 |モータードライバーモジュール| DCモーター/H-Bridge用|+|+| [リンク](https://www.amazon.co.jp/dp/B078X88R27/) |[リンク](https://www.amazon.com/dp/B07Y1QJZK3/) |
+| ピンヘッダー | オス 90度 / モータードライバ用|+|+| [リンク](https://www.amazon.co.jp/dp/B00V4V703O/) |[リンク](https://www.amazon.com/dp/B0979568B3/) |
 | 130 DC モーター |低速 (<8000 RPM) および低電流 (<500m A)|+|+| [TAMIYA](https://www.amazon.co.jp/dp/B005AFBLIA/),[uxcell](https://www.amazon.co.jp/dp/B07CWLWRYJ/) | [uxcell](https://www.amazon.com/dp/B01ERLPVJW) |
 |マイクロサーボ | TowerPro SG90 |+|+| [リンク](https://www.amazon.co.jp/dp/B016FKJJ8M/) | [リンク](https://www.amazon.com/dp/B07MLR1498/) |
 |タミヤ ミニ四駆キット |VZシャーシとお好みのボディ。(5：1ギアをお勧めします）|+|+| [TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Honda e](https://www.amazon.co.jp/dp/B08HK7HWCM/) , [Dual Ridge Jr](https://www.amazon.co.jp/dp/B088FK3NC2/), [Elephant](https://www.amazon.co.jp/dp/B08VX3W3Q6/), [Penguin](https://www.amazon.co.jp/dp/B0043RYKPW/)|[TOYOTA Yaris](https://www.amazon.co.jp/dp/B08C5FM9HM/),[Neo-VQS](https://www.amazon.com/dp/B005GJCC9C/) |
@@ -32,17 +33,17 @@ TatamiRacer at Maker Faire Tokyo 2022
 |ジャンパーケーブル |メスコネクタからメスコネクタ 10cm|+|+| [リンク](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [リンク](https://www.amazon.com/dp/B0742RS6YL) |
 |マイクロ USB ケーブル |ショートケーブル 約15cm |+|+| [リンク](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [リンク](https://www.amazon.com/dp/B01FA4JXN0/) |
 |マイクロ USB から Type-C へのアダプター | Raspberry pi 4 の場合 | |+| [リンク](https://www.amazon.co.jp/dp/B06XFL6159/) | [リンク](https://www.amazon.com/dp/B07G54XXZZ/) |
-|ゲームパッド | F710 | |+| [リンク](https://www.amazon.co.jp/dp/B00475S13W/) | [リンク](https://www.amazon.com/dp/B0041RR0TW/) |
+|ゲームパッド| USBまたはBluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B00475S13W/) |
 ||  || |  |  |
 | 概算費用 (Raspberry PiとマイクロSDカードなし) |  |6,000 yen |13,000 yen |  |  |
 
 
 # 3Dプリントパーツ
 
-![Assembly (STL Viewer)](3d/tatamiracer_assembly.stl)  
+## [アセンブリー (STL Viewer)](3d/tatamiracer_assembly.stl)  
 <img src="img/TatamiRacer_3D_Assembly.png" alt="" title="" width="640" height="">  
   
-![Kit for 3D print(STL Viewer)](3d/tatamiracer_kit.stl)  
+## [3Dプリント用キット(STL Viewer)](3d/tatamiracer_kit.stl)  
 <img src="img/TatamiRacer_3D_Kit.png" alt="" title="" width="640" height="">  
   
 # 回路図  
