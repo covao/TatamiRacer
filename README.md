@@ -31,8 +31,8 @@ TatamiRacer at Maker Faire Tokyo 2022
 | M2x15 or M2x16 mm bolt | For front wheel shaft |+|+| [15508](https://www.amazon.co.jp/dp/B01MXVKDOM/),  [15233](https://www.amazon.co.jp/dp/B001VZE9MS/)| [Link](https://www.amazon.com/dp/B07YS5ZSZH/) |
 | TAMIYA MINI4WD 72mm Shaft | For Extended Rear Shaft|+|+| [Link](https://www.amazon.co.jp/dp/B003GALRS0/) | [Link](https://www.amazon.com/dp/B002CAO2IC/) |
 | Jumper Cable | Female connector to Female connector 10cm|+|+| [Link](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [Link](https://www.amazon.com/dp/B0742RS6YL) |
-| Micro USB Cable | Short cable about 15cm |+|+| [Link](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [Link](https://www.amazon.com/dp/B01FA4JXN0/) |
-| Micro USB to Type-C Adaptor | For Raspberry pi 4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
+| USB Cable | Short cable about 15cm / RasPi3:Micro USB, Rasp4:Type-C |+|+| [Micro USB](https://www.amazon.co.jp/dp/B07PTZ6VGV/) [Type-C](https://www.amazon.co.jp/dp/B07TFHWVPY)| [Micro USB](https://www.amazon.com/dp/B01FA4JXN0/) [Type-C](https://www.amazon.com/dp/B07TFHWVPY) |
+| Micro USB to Type-C Adaptor | For Micro USB cable with RasPi4 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
 | Gamepad | USB or Bluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/), [PS4 Gamepad](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4 Gamepad](https://www.amazon.com/dp/B0B53146Z7/) |
 ||  || |  |  |
 | Approximate cost (without Raspberry Pi and micro SD card) |  |6,000 yen |13,000 yen |  |  |
