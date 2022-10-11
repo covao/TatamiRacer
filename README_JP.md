@@ -31,8 +31,8 @@ TatamiRacer at Maker Faire Tokyo 2022
 | M2x15 または M2x16 mm ボルト |前輪シャフト用 |+|+| [15508](https://www.amazon.co.jp/dp/B01MXVKDOM/),  [15233](https://www.amazon.co.jp/dp/B001VZE9MS/)| [リンク](https://www.amazon.com/dp/B07YS5ZSZH/) |
 |タミヤ ミニ四駆 72mm シャフト |延長リヤシャフト用|+|+| [リンク](https://www.amazon.co.jp/dp/B003GALRS0/) | [リンク](https://www.amazon.com/dp/B002CAO2IC/) |
 |ジャンパーケーブル |メスコネクタからメスコネクタ 10cm|+|+| [リンク](https://www.amazon.co.jp/dp/B07MR1SVVR/) | [リンク](https://www.amazon.com/dp/B0742RS6YL) |
-|マイクロ USB ケーブル |ショートケーブル 約15cm |+|+| [リンク](https://www.amazon.co.jp/dp/B07PTZ6VGV/) | [リンク](https://www.amazon.com/dp/B01FA4JXN0/) |
-|マイクロ USB から Type-C へのアダプター | Raspberry pi 4 の場合 | |+| [リンク](https://www.amazon.co.jp/dp/B06XFL6159/) | [リンク](https://www.amazon.com/dp/B07G54XXZZ/) |
+| USB ケーブル | ショートケーブル 約15cm / RasPi3:Micro USB, Rasp4:Type-C |+|+| [Micro USB](https://www.amazon.co.jp/dp/B07PTZ6VGV/) [Type-C](https://www.amazon.co.jp/dp/B07TFHWVPY)| [Micro USB](https://www.amazon.com/dp/B01FA4JXN0/) [Type-C](https://www.amazon.com/dp/B07TFHWVPY) |
+| Micro USB to Type-C 変換アダプタ | RasPi4とMicro USBケーブルの場合 | |+| [Link](https://www.amazon.co.jp/dp/B06XFL6159/) | [Link](https://www.amazon.com/dp/B07G54XXZZ/) |
 |ゲームパッド| USBまたはBluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00475S13W/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B08TR67991/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4 ゲームパッド](https://www.amazon.co.jp/dp/B0B53146Z7/) |
 ||  || |  |  |
 | 概算費用 (Raspberry PiとマイクロSDカードなし) |  |6,000 yen |13,000 yen |  |  |
