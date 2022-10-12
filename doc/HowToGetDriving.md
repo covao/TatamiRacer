@@ -5,16 +5,24 @@ This article is how to drive with a donkey car web controller.
 See below for more information.
 - [Donkey Car > Drive your car](https://docs.donkeycar.com/guide/get_driving/)
 
-## Remote control with a web browser  
-1. Start "Donky Drive" from the shortcut or enter following command from terminal.  
-
+## Donkeycar Drive Application
+Method 1: Desktop Shortcut 
+1. Start "Donky Drive" or "Donky Drive with Model  
 <img src="../img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
+Method 2: Command from terminal
+1. Enter following command from terminal.
 ~~~
 cd ~/mycar
 python manage.py drive
 ~~~
 
+## Web Controller
+### Method 1: Donkey Copilot (Web controller suitable for smartphone)  
+<img src="../img/DonkeyCopilot.jpg" alt="" title="" width="640" height="">
+https://github.com/covao/DonkeyCopilot
+
+### Method 2: Donkey Car web Controller  
 2. Start the Web browser from the host PC or smart phone and enter following URL.
 ~~~
 http://raspberrypi:8887/drive
@@ -27,3 +35,4 @@ http://raspberrypi:8887/drive
 - **Gemepad mode**  It can be controlled by the gamepad connected to the host PC.
 
 4. Drive the car. 
+
