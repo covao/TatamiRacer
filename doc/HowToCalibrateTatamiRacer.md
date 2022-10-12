@@ -45,7 +45,7 @@ Purpose: Smooth acceleration by increasing the starting torque
 8. Check that the car starts running.
 9. Adjust <code>"Start Boost Time"</code> for smooth acceleration.
 
-### Calibrate the Throttle Feel
+### Calibrate the Throttle Feeling
 Purpose: Improved throttle sensitivity
 1. Turn off the <code>"Enable Boost&Limit"</code> check button.
 2. Set the throttle slider to Off.
