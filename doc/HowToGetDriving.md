@@ -20,7 +20,9 @@ python manage.py drive
 ## Web Controller
 ### Method 1: Donkey Copilot (Web controller suitable for smartphone)  
 <img src="../img/DonkeyCopilot.jpg" alt="" title="" width="640" height="">
-https://github.com/covao/DonkeyCopilot
+Please see https://github.com/covao/DonkeyCopilot
+
+### [Demo Link](https://covao.github.io/DonkeyCopilot/copilot.html?demo)  
 
 ### Method 2: Donkey Car web Controller  
 2. Start the Web browser from the host PC or smart phone and enter following URL.
