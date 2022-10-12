@@ -9,10 +9,13 @@ This page describes about installing DonkeyCar software and custumizing TatamiRa
 1. Download "Raspberry Pi Imager" from [Raspberry Pi official site](https://www.raspberrypi.org/software/). 
 2. Install "Raspberry Pi Imager".
 3. Start "Raspberry Pi imager".
-4. Downlowd Raspbian-OS file from the following site.(Stable Raspbian version for TatamiRacer)  
+4. Downlowd Raspbian-OS file from the following site.    
+For TatamiRacer it is recommended to install the desktop version.  
+Stable Raspbian version for DonkeyCar 
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/  
-
-See note of Raspbian Bullseye issue. [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
+	2021-05-07-raspios-buster-armhf.zip     
+ See note of Raspbian Bullseye issue of Donkey Car.
+ [Flash Operating System](https://docs.donkeycar.com/guide/robot_sbc/setup_raspberry_pi/#step-1-flash-operating-system)
 
 5. If you press advanced configration button, you can set WIFI, host name, SSH, user name and password, local setting.
 6. Write Raspbian OS to your micro SD card.
