@@ -6,11 +6,11 @@ See below for more information.
 - [Donkey Car > Drive your car](https://docs.donkeycar.com/guide/get_driving/)
 
 ## Donkeycar Drive Application
-Method 1: Desktop Shortcut 
+## Method 1: Desktop Shortcut 
 1. Start "Donky Drive" or "Donky Drive with Model  
 <img src="../img/TatamiRacer_Shortcut.jpg" alt="" title="" width="640" height="">
 
-Method 2: Command from terminal
+## Method 2: Command from terminal
 1. Enter following command from terminal.
 ~~~
 cd ~/mycar
