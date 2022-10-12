@@ -71,5 +71,5 @@ TatamiRacer at Maker Faire Tokyo 2022
 
 # [TatamiRacerの運転方法](doc/HowToGetDriving.md)
 [TatamiRacerの運転方法](doc/HowToGetDriving.md)を参照してください   
-<img src="img/browser_control.jpg" alt="" title="" width="640" height="">
+<img src="img/DonkeyCopilot.jpg" alt="" title="" width="640" height="">
 
