@@ -73,7 +73,7 @@ Purpose: Improved torque when cornering
 12. Set the Steerling slide min (left side).
 13. Check that the car keeps running.
 
-### Calibrate the Steering Feel
+### Calibrate the Steering Feeling
 Purpose: Improved control of small steering angles
 1. Adjust <code>"Steering Feel"</code> slider.
 2. Move Steering slider from left to right.
