@@ -1,7 +1,7 @@
 [Japanese(Google Translate)](https://github-com.translate.goog/covao/TatamiRacer/blob/master/doc/HowToGetDriving.md?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=wapp)
 # How To Get Driving
 TatamiRacer can be operated remotely with the web browser.  
-This article is how to drive with a donkey car web controller.  
+This article is how to drive with a DonkeyCar web controller.  
 See below for more information.
 - [Donkey Car > Drive your car](https://docs.donkeycar.com/guide/get_driving/)
 
