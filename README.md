@@ -53,7 +53,12 @@ Various type of Mini-4WD body can be attaced .e.g. [Amazon JP](https://www.amazo
 <img src="img/Body_Selection.jpg" alt="" title="" width="640" height="">
 
 # Tatami-Circuit Cource
-<img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
+<img src="img/tatami_circuit_150cmx100cm_preview.jpg" alt="" title="" width="640" height="">  
+
+## Image data for printed fabric 
+Fabric print service available  
+- [Tatami-Circuit 150cmx100cm 200dpi](img/tatami_circuit_150cmx100cm_200dpi.jpg)  
+- [Tatami-Circuit 110cmx100cm 200dpi](img/tatami_circuit_110cmx100cm_200dpi.jpg)  
 
 # [TatamiRacer Assembly Instructions](doc/Assembly_Instructions.md)
 See [TatamiRacer Assembly Instructions](doc/Assembly_Instructions.md)  
