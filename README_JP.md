@@ -55,7 +55,12 @@ TatamiRacer at Maker Faire Tokyo 2022
 <img src="img/Body_Selection.jpg" alt="" title="" width="640" height="">
 
 # Tatamiサーキットコース  
-<img src="img/Tatami Circuit.png" alt="" title="" width="640" height="">
+<img src="img/tatami_circuit_150cmx100cm_preview.jpg" alt="" title="" width="640" height="">  
+
+## プリント生地用イメージデータ 
+ファブリックプリントサービスを利用できます  
+- [Tatami-Circuit 150cmx100cm 200dpi](img/tatami_circuit_150cmx100cm_200dpi.jpg)  
+- [Tatami-Circuit 110cmx100cm 200dpi](img/tatami_circuit_110cmx100cm_200dpi.jpg)  
 
 # [TatamiRacerの組み立て方法](doc/Assembly_Instructions.md)  
 [TatamiRacerの組み立て方法](doc/Assembly_Instructions.md)を参照してください  
