@@ -1,5 +1,3 @@
-Here's the translated README.md with the specified translation rules applied:
-
 [日本語 Japanese](https://github.com/covao/TatamiRacer/blob/master/README_JP.md) / [English](https://github.com/covao/TatamiRacer/blob/master/README.md)  
 
 ![TatamiRacerLogo](img/TatamiRacer_LogoM.png)
