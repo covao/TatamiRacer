@@ -4,10 +4,13 @@
 TatamiRacer is a tiny autonomous driving car based on the ["TAMIYA MINI 4WD" kit](https://www.tamiya.com/english/mini4wd/m4item/m4item.htm). It can operate within the space of a single ["Tatami"](https://en.wikipedia.org/wiki/Tatami) mat, approximately 1.8m x 0.9m. The car uses ["Donkey Car"](http://docs.donkeycar.com/) software for deep learning and self-driving control. Interestingly, the Japanese word "Tatami" also brings to mind convolution operations in neural networks.
 
 ### YouTube  
-
 - TatamiRacer 
+
 [![](https://img.youtube.com/vi/b-pkVy8e3DA/0.jpg)](https://www.youtube.com/watch?v=b-pkVy8e3DA)  
+
+
 - TatamiRacer at Maker Faire Tokyo 2022  
+
 [![](https://img.youtube.com/vi/s3ll8Y1OPn8/0.jpg)](https://www.youtube.com/watch?v=s3ll8Y1OPn8)  
 
 # Release History
