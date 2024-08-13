@@ -1,6 +1,4 @@
-以下は、GitHubの`README.md`の日本語訳です。指定された翻訳ルールを適用しています。
-
----
+[Japanese](https://github.com/covao/TatamiRacer/blob/master/README_JP.md) / [English](https://github.com/covao/TatamiRacer/blob/master/README.md)  
 
 ![TatamiRacerLogo](img/TatamiRacer_LogoM.png)
 
