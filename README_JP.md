@@ -48,9 +48,7 @@ TatamiRacerは、[「タミヤ ミニ四駆」キット](https://www.tamiya.com/
 | Type-C USB ケーブル（L型ヘッダー） | ショートケーブル15-20cm ||+| [e.g. aceyoon](https://www.amazon.co.jp/dp/B0B4JQ41SW/)| [e.g. aceyoon](https://www.amazon.com/dp/B096VYVR17/) |
 | ゲームパッド | USBまたはBluetooth | |+| [F710](https://www.amazon.co.jp/dp/B00CDG7994/), [PS4互換ゲームパッド](https://www.amazon.co.jp/dp/B0C4NW3G8J/)  | [F710](https://www.amazon.com/dp/B0041RR0TW/), [PS4互換ゲームパッド](https://www.amazon.com/dp/B0C4NW3G8J/) |
 ||  || |  |  |
-| 概算コスト（Raspberry Piとmicro SDカードを除く） |  |6,000円 |10
-
-,000円 |  |  |
+| 概算コスト（Raspberry Piとmicro SDカードを除く） |  |6,000円 |10,000円 |  |  |
 
 # 3Dプリントパーツ
 
